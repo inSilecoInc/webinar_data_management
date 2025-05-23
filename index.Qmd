@@ -1,0 +1,101 @@
+---
+title: "Data Management"
+author: "inSileco"
+date: "2025-03-23"
+from: markdown+emoji
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    transition: fade
+    css: styles.css
+    incremental: false
+    toc: false
+    toc-depth: 2
+---
+
+## About us
+
+::: {style="text-align: center;"}
+[![](img/insileco.png){width=80%}](https://insileco.io/){target="_blank"}
+:::
+
+
+# Context 
+
+## More than papers 
+
+- link on social media, wikipedia...
+- Data published standalone
+- https://www.crossref.org/services/event-data/
+
+
+## Open data Open Access Reproducible research
+
+
+## Change in Journal policy
+
+# Data Management Plans 
+
+
+# Sharing Data 
+
+## CARE principles
+
+## Platforms 
+
+- Open Science Framework 
+- Zenodo (https://www.openaire.eu/zenodo-relaunch)
+- figshare
+- https://dataverse.org/
+- https://polardata.ca/
+
+
+# Sharing Code
+
+
+
+
+
+
+
+## Research Graph meta model
+
+![](img/research_graph.png)
+
+> :book: Aryani A, et al. 2018. A Research Graph dataset for connecting research data repositories using RD-Switchboard. Scientific Data 5. DOI: 10.1038/sdata.2018.99.
+
+
+
+
+
+
+<!-- ## References
+
+See [the doc](https://quarto.org/docs/presentations/revealjs/)
+
+ -->
+
+
+
+<!-- ## Slide with columns
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+## Slide with speaker notes
+
+Slide content
+
+::: {.notes}
+Speaker notes go here.
+::: -->
