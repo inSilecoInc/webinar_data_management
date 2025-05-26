@@ -1,5 +1,5 @@
 ---
-title: "Data Management"
+title: "Research Data Management (RDM)"
 author: "inSileco"
 date: "2025-03-23"
 from: markdown+emoji
@@ -29,20 +29,51 @@ format:
 - Data published standalone
 - https://www.crossref.org/services/event-data/
 
+- McGill: 
+  - RDM https://www.youtube.com/watch?v=Jm7qIkrL3wM
+  - DMP https://www.youtube.com/watch?v=p_JzQxxC4ts
 
 ## Open data Open Access Reproducible research
 
 
 ## Change in Journal policy
 
+
+# Data 
+
+## Raw vs processed data 
+
+> Some authors defend that data are realistically never raw, as they are always collected in a specific context that may be subject to bias and interpretation, which can have a significant impact on the results
+
+Don't think the actual voltage returned by any instrument is meaningful, so needs to add context (techno, intrument, etc.) and thus somewhat data are always sometime meaningful only after some treatment, e.g. sonar detection, etc.
+What data to be shared is discussed with the community
+
+
+Cunha-Oliveira T, Ioannidis JPA, Oliveira PJ. 2024. Best practices for data management and sharing in experimental biomedical research. Physiological Reviews 104:1387–1408. DOI: 10.1152/physrev.00043.2023.
+
+
+
 # Data Management Plans 
+
+
+# Data and metadata
+
+- metadata are data that describes data 
+
+Data Catalogue 
+
+> Pacharra M, Otto T, Winter NOC. 2025. From Bench to Brain: A Metadata-driven Approach to Research Data Management in a Collaborative Neuroscientific Research Center. Data Science Journal 24:2. DOI: 10.5334/dsj-2025-002. https://datascience.codata.org/articles/10.5334/dsj-2025-002
+
+
+## Dublin Core
+
 
 
 # Sharing Data 
 
 ## CARE principles
 
-## Platforms 
+## Platforms infrastructure
 
 - Open Science Framework 
 - Zenodo (https://www.openaire.eu/zenodo-relaunch)
@@ -53,7 +84,16 @@ format:
 
 # Sharing Code
 
+> The Federated Research Data Repository (FRDR) is  https://www.frdr-dfdr.ca/repo/
 
+
+# IA 
+
+medata have big role to evenetually feed IA using IA as sythesis tool
+
+> Williamson HF, Brettschneider J, Caccamo M, Davey RP, Goble C, Kersey PJ, May S, Morris RJ, Ostler R, Pridmore T, Rawlings C, Studholme D, Tsaftaris SA, Leonelli S. 2023. Data management challenges for artificial intelligence in plant and agricultural research [version 2; peer review: 2 approved].
+
+Not that I am blindly endorsing IA, however it's a Turing Machine that crunching and digesting data is every possible way, may provide insights
 
 
 
