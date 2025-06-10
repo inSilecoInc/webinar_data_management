@@ -28,8 +28,8 @@ format:
 ## More than papers 
 
 - researchers produce a diversity of artefacts 
-- among which data is increasingling important 
-- more than paper https://www.crossref.org/services/event-data/
+- among which **data** are increasingly important 
+- more than papers https://www.crossref.org/services/event-data/
 - Dataset are now published standalone
 
 
@@ -54,7 +54,10 @@ format:
 
 ![](img/datasphere.png)
 
-- Clissa L, Lassnig M, Rinaldi L. 2023. How big is Big Data? A comprehensive survey of data production, storage, and streaming in science and industry. Frontiers in Big Data 6:1271639. DOI: [10.3389/fdata.2023.1271639](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full).
+- https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf
+- https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf
+
+
 
 
 
@@ -62,8 +65,9 @@ format:
 
 ![](img/bigData.png)
 
-- https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf
-- https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf
+- Clissa L, Lassnig M, Rinaldi L. 2023. How big is Big Data? A comprehensive survey of data production, storage, and streaming in science and industry. Frontiers in Big Data 6:1271639. DOI: [10.3389/fdata.2023.1271639](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full).
+
+
 
 
 
@@ -81,7 +85,7 @@ format:
 - Open Science 
 - Open Access
 - Reproducible research
-- change in Journal policies
+- change in Journal and Funding agencies policies
 
 
 ## Importance of Standards & Metadata
@@ -106,14 +110,13 @@ format:
 ## ArcticNet
 
 - Some short background history on ArcticNet and past initiatives in terms of data management
+- Imporve RDM practice over time
 
 
 ## Webinar goals 
 
 - Overview of RDM practices in general
-- ArcticNet’s commitment to its members to facilitate data management
-- ArcticNet’s expectations towards its members in terms of data management
-- Training and practical guidance for data management
+- Provide practical guidance for data management
 
 
 
@@ -181,15 +184,16 @@ format:
 
 ## Responsibilities and Resources
 
-- Who is sresponsible of what
+- Who is responsible of what?
 
 
 ## Role of the network 
 
-- Support researchers is writting their DMP 
-- Ideally foreseeing potential synergy among researchers for data collection
+- Support researchers in writing their DMP 
+- Ideally foresee potential synergies among researchers for data collection
 - Training: RDM 101
-
+- A DMP template for ArticNet?
+- Propose a list of platforms?
 
 
 
@@ -202,14 +206,15 @@ format:
 
 - Actual work
 - During collection, focus on collection, note all details 
-- During early analysis, right down the metadata
+- During analysis phase, write down the metadata
+- Write metadata for PDC?
 
 
 ## Metadata 
 
 - metadata =  data that describe data 
-- A central element in sharing data internally and externally (data catalogue)
 - Contextualize data 
+- A central element in sharing data internally and externally (data catalogue)
 
 
 ## One example: Dublin Core
@@ -217,11 +222,11 @@ format:
 - 2-3 slides about the grammar of the Dublin Core
 
 
-## Role of the network 
+## Role of the network
 
-- supporting researchers in writting metadata
+- define a metadata standard for the project
+- supporting researchers in writing metadata
 - ideally setting tools to manage metadata
-
 
 > Pacharra M, Otto T, Winter NOC. 2025. From Bench to Brain: A Metadata-driven Approach to Research Data Management in a Collaborative Neuroscientific Research Center. Data Science Journal 24:2. DOI: 10.5334/dsj-2025-002. https://datascience.codata.org/articles/10.5334/dsj-2025-002
 
@@ -230,22 +235,22 @@ format:
 
 # Archiving -- 30min
 
-# Importance
+## Importance
 
-- Preserve and Share Data efficiently 
+- Preserve and share data efficiently 
 
 
 ## FAIR principles 
 
-- Explaining FAIR princinples
+- Explaining FAIR principles
 
-> Wilkinson MD, et al.. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3. DOI: 10.1038/sdata.2016.18.
+> Wilkinson MD, et al. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3. DOI: 10.1038/sdata.2016.18.
 
 
 
 ## CARE principles
 
-- Explaining CARE princinples
+- Explaining CARE principles
 
 > Carroll SR, et al. 2020. The CARE Principles for Indigenous Data Governance. Data Science Journal 19:43. DOI: 10.5334/dsj-2020-043.
 
@@ -254,17 +259,34 @@ format:
 
 ## Platforms infrastructure
 
+- What do they do, how
 - Zenodo (https://www.openaire.eu/zenodo-relaunch)
 - Open Science Framework 
 - figshare
-- https://dataverse.org/
-- **PDC** https://polardata.ca/
+- dataverse
+- Siku
+- PDC 
+
 
 ## Zenodo 
 
+- What is it? How ot works?
+- https://www.openaire.eu/zenodo-relaunch
+
 ## Dataverse / Borealis
 
+- What is it? How ot works?
+- https://dataverse.org/
+
+
+## Siku
+
+- What is it? How ot works?
+
 ## PDC
+
+- What is it? How ot works?
+- https://polardata.ca/
 
 
 ## Workflow 
