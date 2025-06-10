@@ -1,7 +1,7 @@
 ---
 title: "Research Data Management (RDM)"
-author: "inSileco"
-date: "2025-03-23"
+author: "inSileco & ArcticNet"
+date: "2025-06-10"
 from: markdown+emoji
 format: 
   revealjs:
@@ -14,6 +14,7 @@ format:
     toc-depth: 2
 ---
 
+
 ## About us
 
 ::: {style="text-align: center;"}
@@ -21,100 +22,273 @@ format:
 :::
 
 
-# Context 
+# Background -- 20min
+
 
 ## More than papers 
 
-- link on social media, wikipedia...
-- Data published standalone
-- https://www.crossref.org/services/event-data/
+- researchers produce a diversity of artefacts 
+- among which data is increasingling important 
+- more than paper https://www.crossref.org/services/event-data/
+- Dataset are now published standalone
+
+
+## Data 
+
+- a definition of data 
+- 5 V of Big data (different concept but useful here)
+- **Volume**, **Variety**, Velocity, Veracity, and **Value**
+
+
+
+## Data explosion 
+
+- Volume
+- New question, new horizon ==> more data 
+- Researchers now access powerful tools enabling unprecedented data collection.
+- Example: Large Hadron Collider produced ~40 Zettabytes in 2017 (Clissa et al., 2023).
+
+
+
+## Data explosion 
+
+![](img/datasphere.png)
+
+- Clissa L, Lassnig M, Rinaldi L. 2023. How big is Big Data? A comprehensive survey of data production, storage, and streaming in science and industry. Frontiers in Big Data 6:1271639. DOI: [10.3389/fdata.2023.1271639](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full).
+
+
+
+## Data explosion 
+
+![](img/bigData.png)
+
+- https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf
+- https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf
+
+
+
+## Data heterogeneity 
+
+- Variety
+- Various objects, various to store data, various technologies, etc.
+- Data vary widely across and within disciplines.
+- Lack of standardized formats hinders integration and reuse.
+- Legacy practices (e.g., local storage) limit access and preservation.
+
+
+## Open science movement 
+
+- Open Science 
+- Open Access
+- Reproducible research
+- change in Journal policies
+
+
+## Importance of Standards & Metadata
+
+- Early metadata standards: Dublin Core.
+- Rise of FAIR principles as best practices in RDM.
+- Role of platforms like Zenodo and Dryad in supporting open data.
+
+
+## Gaps in Adoption
+
+- Data standards and practices unevenly adopted across scientific communities.
+- Especially problematic in interdisciplinary research projects (IRPs).
+
+
+## Opportunities Through Proactive RDM
+
+- Upstream coordination improves collaboration, data reuse, and long-term visibility.
+- Structured governance fosters unexpected synergies.
+
+
+## ArcticNet
+
+- Some short background history on ArcticNet and past initiatives in terms of data management
+
+
+## Webinar goals 
+
+- Overview of RDM practices in general
+- ArcticNet’s commitment to its members to facilitate data management
+- ArcticNet’s expectations towards its members in terms of data management
+- Training and practical guidance for data management
+
+
+
+
+<!-- ## Raw vs processed data  -->
+
+<!-- > Some authors defend that data are realistically never raw, as they are always collected in a specific context that may be subject to bias and interpretation, which can have a significant impact on the results -->
+
+<!-- Don't think the actual voltage returned by any instrument is meaningful, so needs to add context (techno, intrument, etc.) and thus somewhat data are always sometime meaningful only after some treatment, e.g. sonar detection, etc. -->
+<!-- What data to be shared is discussed with the community -->
+
+<!-- Cunha-Oliveira T, Ioannidis JPA, Oliveira PJ. 2024. Best practices for data management and sharing in experimental biomedical research. Physiological Reviews 104:1387–1408. DOI: 10.1152/physrev.00043.2023. -->
+
+
+
+
+
+# Data Management Plan -- 30min
+
+## Importance 
+
+> A data management plan, or DMP, is a formal document that outlines how data will be handled during and after a research project. Many funding agencies, especially government sources, require a DMP as part of their application processes.
+
+- https://datamanagement.hms.harvard.edu/plan-design/data-management-plans
+- https://dmp-pgd.ca/public_templates
 
 - McGill: 
   - RDM https://www.youtube.com/watch?v=Jm7qIkrL3wM
   - DMP https://www.youtube.com/watch?v=p_JzQxxC4ts
 
-## Open data Open Access Reproducible research
+
+## Data collection 
+
+- Protocols 
+- Types of data (e.g., observational, model outputs, images)
+- Formats and estimated volume
+- Structure and naming conventions
+
+## Documentation and Metadata
+
+- Standards used (e.g., ISO 19115, Darwin Core)
+- Tools or platforms used for metadata creation (e.g., Polar Data Catalog)
+- Timing of metadata creation (start early, update as needed)
+- ArcticNet will provide a template for PDC metadata submission
+
+## Storage, Backup, Preservation
+
+- How data will be stored 
+- How will you ensure that data will be preserved
+- V value 
 
 
-## Change in Journal policy
+## Sharing and Reuse
+
+- Who will access the data and when (open, embargoed, restricted)
+- How data will be cited (DOIs or other persistent IDs)
+- Licensing terms (e.g., CC-BY, custom agreements)
+
+## Legal & Ethical Considerations
+
+- Privacy concerns, ethics approvals
+- Indigenous data sovereignty and OCAP/CARE principles
+- Embargo periods, licensing, or access restrictions
 
 
-# Data 
+## Responsibilities and Resources
 
-## Raw vs processed data 
-
-> Some authors defend that data are realistically never raw, as they are always collected in a specific context that may be subject to bias and interpretation, which can have a significant impact on the results
-
-Don't think the actual voltage returned by any instrument is meaningful, so needs to add context (techno, intrument, etc.) and thus somewhat data are always sometime meaningful only after some treatment, e.g. sonar detection, etc.
-What data to be shared is discussed with the community
+- Who is sresponsible of what
 
 
-Cunha-Oliveira T, Ioannidis JPA, Oliveira PJ. 2024. Best practices for data management and sharing in experimental biomedical research. Physiological Reviews 104:1387–1408. DOI: 10.1152/physrev.00043.2023.
+## Role of the network 
+
+- Support researchers is writting their DMP 
+- Ideally foreseeing potential synergy among researchers for data collection
+- Training: RDM 101
 
 
 
-# Data Management Plans 
 
 
-# Data and metadata
 
-- metadata are data that describes data 
+# Data collection and analysis -- 20min
 
-Data Catalogue 
+
+## Importance 
+
+- Actual work
+- During collection, focus on collection, note all details 
+- During early analysis, right down the metadata
+
+
+## Metadata 
+
+- metadata =  data that describe data 
+- A central element in sharing data internally and externally (data catalogue)
+- Contextualize data 
+
+
+## One example: Dublin Core
+
+- 2-3 slides about the grammar of the Dublin Core
+
+
+## Role of the network 
+
+- supporting researchers in writting metadata
+- ideally setting tools to manage metadata
+
 
 > Pacharra M, Otto T, Winter NOC. 2025. From Bench to Brain: A Metadata-driven Approach to Research Data Management in a Collaborative Neuroscientific Research Center. Data Science Journal 24:2. DOI: 10.5334/dsj-2025-002. https://datascience.codata.org/articles/10.5334/dsj-2025-002
 
 
-## Dublin Core
 
 
+# Archiving -- 30min
 
-# Sharing Data 
+# Importance
+
+- Preserve and Share Data efficiently 
+
+
+## FAIR principles 
+
+- Explaining FAIR princinples
+
+> Wilkinson MD, et al.. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3. DOI: 10.1038/sdata.2016.18.
+
+
 
 ## CARE principles
 
+- Explaining CARE princinples
+
+> Carroll SR, et al. 2020. The CARE Principles for Indigenous Data Governance. Data Science Journal 19:43. DOI: 10.5334/dsj-2020-043.
+
+
+
+
 ## Platforms infrastructure
 
-- Open Science Framework 
 - Zenodo (https://www.openaire.eu/zenodo-relaunch)
+- Open Science Framework 
 - figshare
 - https://dataverse.org/
-- https://polardata.ca/
+- **PDC** https://polardata.ca/
+
+## Zenodo 
+
+## Dataverse / Borealis
+
+## PDC
 
 
-# Sharing Code
+## Workflow 
 
-> The Federated Research Data Repository (FRDR) is  https://www.frdr-dfdr.ca/repo/
-
-
-# IA 
-
-medata have big role to evenetually feed IA using IA as sythesis tool
-
-> Williamson HF, Brettschneider J, Caccamo M, Davey RP, Goble C, Kersey PJ, May S, Morris RJ, Ostler R, Pridmore T, Rawlings C, Studholme D, Tsaftaris SA, Leonelli S. 2023. Data management challenges for artificial intelligence in plant and agricultural research [version 2; peer review: 2 approved].
-
-Not that I am blindly endorsing IA, however it's a Turing Machine that crunching and digesting data is every possible way, may provide insights
-
-
-
-
-
-## Research Graph meta model
-
-![](img/research_graph.png)
-
-> :book: Aryani A, et al. 2018. A Research Graph dataset for connecting research data repositories using RD-Switchboard. Scientific Data 5. DOI: 10.1038/sdata.2018.99.
+![](img/data_flow.svg)
 
 
 
 
 
 
-<!-- ## References
 
-See [the doc](https://quarto.org/docs/presentations/revealjs/)
 
- -->
+
+# Take home
+
+
+## Timeline 
+
+![](img/timeline.png)
+
+
+
+
 
 
 
@@ -139,3 +313,18 @@ Slide content
 ::: {.notes}
 Speaker notes go here.
 ::: -->
+
+
+<!-- medata have big role to evenetually feed IA using IA as sythesis tool -->
+
+<!-- > Williamson HF, Brettschneider J, Caccamo M, Davey RP, Goble C, Kersey PJ, May S, Morris RJ, Ostler R, Pridmore T, Rawlings C, Studholme D, Tsaftaris SA, Leonelli S. 2023. Data management challenges for artificial intelligence in plant and agricultural research [version 2; peer review: 2 approved]. -->
+
+<!-- Not that I am blindly endorsing IA, however it's a Turing Machine that crunching and digesting data is every possible way, may provide insights -->
+
+
+
+<!-- ## Research Graph meta model -->
+
+<!-- ![](img/research_graph.png) -->
+
+<!-- > :book: Aryani A, et al. 2018. A Research Graph dataset for connecting research data repositories using RD-Switchboard. Scientific Data 5. DOI: 10.1038/sdata.2018.99. -->

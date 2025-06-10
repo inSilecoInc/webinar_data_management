@@ -15,6 +15,7 @@ RMap employs a RESTful (Representational State Transfer) API
 
 
 
+
 ===> Hanson K. Using RMap to Describe Distributed Works as Linked Data Graphs.
 
 > The goal of the RMap project was to build a prototype service that can capture and preserve the maps of relationships found amongst these distributed works

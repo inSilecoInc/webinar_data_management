@@ -30,3 +30,7 @@
 .reveal .slide-background-content {
   background-color: white;
 }
+
+.quarto-title-author-name {
+  margin-top: 2rem;
+}
