@@ -1,7 +1,7 @@
 ---
-title: "Research Data Management (RDM)"
+title: "Research Data Management"
 author: "inSileco & ArcticNet"
-date: "2025-06-10"
+date: "2025-09-03"
 from: markdown+emoji
 format: 
   revealjs:
@@ -14,15 +14,275 @@ format:
     toc-depth: 2
 ---
 
+## Webinar Structure  
+
+::: {.callout-tip}
+### RDM: Research Data Management
+:::
+
+0. ***Welcome*** (5 min)
+1. ***Why*** (20 min)
+2. ***When & Who*** (20 min)
+3. ***How to Guide*** (45 min)
+4. ***Future*** (10 min)
+5. ***Q&A*** (10 min)
+
+# Welcome
 
 ## About us
+
+::: {style="font-size: 100%;"}
+[![](img/who-we-are.png){width=100%}](https://insileco.io/){target="_blank"}
+:::
+
+## About us 
 
 ::: {style="text-align: center;"}
 [![](img/insileco.png){width=80%}](https://insileco.io/){target="_blank"}
 :::
 
+## About us 
 
-# Background -- 20min
+***inSileco*** & ***ArcticNet*** **(since 2023)**
+
+::: {.callout-tip}
+### DMP: Data Management Plan
+:::
+
+- Develop criteria for project DMPs
+- Review and provide feedback on project DMPs
+- Support researchers with RDM practices and tools
+- Maintain and expand ArcticNet’s long-term data archive
+- Deliver training and capacity building (e.g. this webinar)
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+# Why 
+
+Background, Policies & Benefits
+
+20 min
+
+
+## Why RDM matters
+
+- Data is a **research output**, not just a by-product  
+- Ensures **reproducibility** and transparency  
+- Facilitates **collaboration** across disciplines and institutions  
+- Supports **FAIR** Principles
+- Aligns with **CARE** Principles for Indigenous data  
+
+::: {.callout-tip }
+### FAIR: Findable, Accessible, Interoperable, Reusable
+:::
+ 
+::: {.callout-tip }
+### CARE: Collective Benefit, Authority to Control, Responsibility, Ethics
+:::
+
+
+## More than papers  
+
+- Researchers produce a **diversity of artefacts**  
+- Among these, **data** are increasingly important  
+- More than papers → [Crossref Event Data](https://www.crossref.org/services/event-data/)  
+- Datasets are now published standalone  
+
+
+## What is “data”?  
+
+- Broad definition: recorded information supporting research findings  
+- Data can be **qualitative** or **quantitative**  
+- Useful lens: the **5 V’s of Big Data**  
+  - **Volume**, **Variety**, Velocity, Veracity, and **Value**  
+
+
+## Data explosion (Volume)
+
+:::: {.columns}
+
+::: {.column width="60%"}
+- New questions & horizons → more data  
+- Powerful tools enabling unprecedented data collection  
+- Ex: Large Hadron Collider → ~40 Zettabytes in 2017
+:::
+
+::: {.column width="40%"}
+[![](img/datasphere.png){width=100%}](img/datasphere.png)
+
+[![](img/bigData.png){width=100%}](img/bigData.png)
+:::
+
+:::: 
+
+:::footer 
+[IDC–Seagate Data Age Whitepaper](https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf) 
+&nbsp; ***·*** &nbsp;
+[Seagate WP DataAge 2025](https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf)
+&nbsp; ***·*** &nbsp;
+[Clissa *et al.* 2023. *How big is Big Data?* Frontiers in Big Data](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full)
+:::
+
+
+## Data heterogeneity (Variety)
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- As important as volume  
+- Different objects, storage formats, technologies  
+- Data vary widely across and within disciplines  
+- Lack of standards hinders integration and reuse  
+- Legacy practices (e.g., local storage) limit access and preservation  
+- Prevalent in large Interdisciplinary Research Programs
+:::
+
+::: {.column width="30%"}
+[![](img/variety-of-big-data-sources.png){width=100%}](img/variety-of-big-data-sources.png)
+:::
+
+:::: 
+
+:::footer
+[ColumnFive Media](https://www.columnfivemedia.com/work/infographic-intelligence-by-variety/?utm_source=chatgpt.com)
+:::
+
+
+## Open Science → Policies
+
+- Ecosystem shift toward **Open Science, Open Access, Reproducibility**  
+- Changing **journal & funder** expectations  
+- **Tri-Agency RDM Policy (2021)**  
+  - Institutions: publish RDM strategies  
+  - Researchers: DMPs & data deposit in trusted repositories  
+- Canada aligning with **international Open Science**
+
+:::footer
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+:::
+
+## Benefits & opportunities
+
+- Greater **visibility & citations** for datasets  
+- Reduced **risk of loss** (backups, repositories)  
+- Stronger **collaboration & integration** across teams  
+- Improved **efficiency** via organized workflows  
+- Network-level governance fosters **new synergies**  
+- Enhanced **credibility & compliance** with funders
+
+## ArcticNet 
+
+
+- The ADMP applies to **all data generated wholly or partially from ArcticNet–funded research**, viewing it as a **public good**, while respecting privacy, ethics, and intellectual property. 
+- **Key Objectives**:
+  - Implement national/international **best practices** in data stewardship  
+  - Maximize accessibility, avoid duplication, promote reuse—especially for Inuit, First Nations and Métis communities
+  - Uphold **FAIRness**, encourage interdisciplinary sharing and responsible handling of **sensitive data**
+  - Support **data sovereignty**: respect CARE principles (and distinctions-based guidance like OCAP®, NISR) for Indigenous data governance  
+
+:::footer
+[ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+## ArcticNet
+
+### Guiding Principles
+
+| Principle | Description |
+|----------|-------------|
+| **Open Yet Protected** | Data & metadata should be as **open as possible**, and as **closed as necessary** (e.g. embargoes, privacy, confidentiality)   |
+| **Citable & Preserved** | ArcticNet data must be **citable**, **publishable**, and **preserved**, with interoperability and links across platforms  
+| **Infrastructure & Support** | Encourage use of existing interoperable systems; support researchers via training, resources, and outreach  
+
+:::footer
+[ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+## ArcticNet
+
+### Requirements for Research Projects
+
+- **Mandatory DMP**: Projects must create and continually update a Data Management Plan covering lifecycle stages, responsibilities, metadata, ethics, etc.
+- **Metadata & Standards**: Use accepted disciplinary metadata standards (e.g., ISO, FGDC, Dublin Core); submit rich metadata early; failure to do so may delay funding releasesArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)  
+- **Storage & Preservation**: Researchers choose certified repositories (e.g., Nordicana-D, Polar Data Catalogue, GBIF, OBIS) and plan for long-term archival using preservation-friendly formatsArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)  
+- **Access & Sharing**: Data must be published openly when appropriate; exceptions include sensitive or Indigenous data, which must be justified in the DMP
+- **Sensitive & Indigenous Data**: Follow anonymization, privacy protections, and engage Indigenous communities fully—respect CARE, OCAP®, NISR protocols 
+- **Monitoring & Reporting**: Annual progress reports must include metadata links and any data-related incidents; researchers must notify and report security breaches within 24 hours  
+
+:::footer
+[ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Key takeaways
+
+- Research is **more than papers** → **data is central**  
+- **Volume & Variety** demand better practices  
+- Policies (ArcticNet, SN, Tri-Agency) make RDM **essential**  
+- RDM is not only compliance — it **benefits researchers & networks**
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# When & Who 
+
+Timeline, Roles & Responsibilities
+
+20 min
+
+# How to Guide 
+
+Data Management Plans, Data Collection & Analysis, Archiving & Sharing
+
+45 min
+
+
+# Future 
+
+Emerging Trends & Opportunities
+
+10 min
+
+
+# Q&A
+
+10 min
+
+
 
 
 ## More than papers 
@@ -113,10 +373,7 @@ format:
 - Imporve RDM practice over time
 
 
-## Webinar goals 
 
-- Overview of RDM practices in general
-- Provide practical guidance for data management
 
 
 
@@ -297,7 +554,9 @@ format:
 
 
 
+## The Future of RDM
 
+-
 
 
 
