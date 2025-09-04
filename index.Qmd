@@ -71,10 +71,16 @@ Data & Open Science
 ## What is “data”?  
 
 - Broad definition: **recorded information supporting research findings**  
-  - could inculde, e.g., 💻 code
+  - could include, e.g., 💻 code
 - Data can be **qualitative** or **quantitative**  
 - Useful lens: the **5 V’s of Big Data**  
   - **Volume**, **Variety**, Velocity, Veracity, and **Value**  
+
+
+:::footer 
+[IBM website](https://www.ibm.com/think/topics/big-data)
+:::
+
 
 
 ## Data explosion (Volume)
@@ -133,8 +139,36 @@ Data & Open Science
 :::: 
 
 :::footer
-[ColumnFive Media](https://www.columnfivemedia.com/work/infographic-intelligence-by-variety/?utm_source=chatgpt.com)
+[ColumnFive Media](https://www.columnfivemedia.com/work/infographic-intelligence-by-variety)
 :::
+
+
+## Benefits (Value)
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- We need reliable data to better understand and predict
+  - anticipate/mitigate future changes
+  - Ex: good assessment of temperature and precipitation change
+- Some data are hard to collect
+  - Arctic Data are good example
+- Data are **precious** for future generations
+  - We won't be able to collect past data
+:::
+
+::: {.column width="30%"}
+[![](img/annual_report.png){width=100%}](img/annual_report.png)
+:::
+
+:::: 
+
+:::footer
+[ArcticNet Annual Report 2022/23](https://arcticnet.ca/wp-content/uploads/2023/10/rapport_annuel_arcticnet_2022-23_ENG.pdf)
+:::
+
+
+
 
 
 ## Open Science
@@ -145,11 +179,11 @@ Data & Open Science
 Shift in research ecosystem:  
 
 - **Open Science** 
-  - research → transparent and accessible  
+  - research ➡️ transparent and accessible  
 - **Open Access**
-  - publishing → results freely available  
+  - publishing ➡️ results freely available  
 - **Reproducible research**
-  - practices → trust & verification  
+  - practices ➡️ trust & verification  
 
 Increasingly drives **journal & funder expectations**  
 
@@ -176,21 +210,22 @@ Sets the stage for today's **policies and compliance frameworks**
 :::
 
 - Data is now a **primary research output**  
-- Proper management increases **visibility & citations**  
 - Reduces risk of **data loss or inaccessibility**  
+- Proper management increases **visibility & citations**  
 - Strengthens **compliance** with funders & journals  
-- Builds a foundation for **collaboration in IRPs**  
+- Builds a foundation for **collaboration in IRPs**
+  - data may be reuse in unexpected ways by colleagues
 
 
 ## Key takeaways
 
-- Research outputs go **beyond papers** → **data is central**  
-- The **explosion & heterogeneity** of data create new challenges  
+- Research outputs go **beyond papers** ➡️ **data is central**  
+- The **explosion & heterogeneity** of data offers new horizons and create new technical challenges  
 - The **Open Science movement** drives funder and journal expectations  
 - For IRPs, effective data management enables **collaboration, compliance, and visibility**  
 - Data management is not just compliance — it is a **path to better science**  
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
 
 
 # What 
@@ -272,7 +307,7 @@ Definition, Policies & Benefits
   - Support **FAIR principles** and responsible use of sensitive data  
   - Respect **Indigenous data sovereignty** (CARE, OCAP®, NISR)  
 - Provides the policy framework for how projects should manage data  
-  → *Practical requirements are covered in the **How to Guide** section*  
+  ➡️ *Practical requirements are covered in the **How to Guide** section*  
 
 :::footer
 [ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
@@ -293,8 +328,30 @@ Definition, Policies & Benefits
 
 
 
----
 
+
+
+
+# When & Who 
+
+Timeline, Roles & Responsibilities
+
+20 min
+
+
+## Timeline 
+
+![](img/timeline.png)
+
+
+# How to Guide 
+
+Data Management Plans, Data Collection & Analysis, Archiving & Sharing
+
+45 min
+
+
+---
 
 ::: {.callout-tip }
 ### FAIR: Findable, Accessible, Interoperable, Reusable
@@ -302,6 +359,10 @@ Definition, Policies & Benefits
  
 ::: {.callout-tip }
 ### CARE: Collective Benefit, Authority to Control, Responsibility, Ethics
+:::
+
+::: {.callout-tip }
+### TRUST: Transparency, Responsability, User Focus, Sustainabiilty 
 :::
 
 ::: {.callout-tip}
@@ -315,23 +376,32 @@ Definition, Policies & Benefits
 
 
 
+## Platforms
+
+## Workflow 
+
+![](img/data_flow.svg)
 
 
 
+## TRUST 
 
+<br>
 
+::: {style="font-size: 60%;"}
+| Principle      | Definition                                                                                           |
+|----------------|-------------------------------------------------------------------------------------------------------|
+| Transparency   | To be transparent about specific repository services and data holdings that are verifiable by publicly accessible evidence. |
+| Responsibility | To be responsible for ensuring the authenticity and integrity of data holdings and for the reliability and persistence of its service. |
+| User Focus     | To ensure that the data management norms and expectations of target user communities are met. |
+| Sustainability | To sustain services and preserve data holdings for the long-term. |
+| Technology     | To provide infrastructure and capabilities to support secure, persistent, and reliable services. |
+:::
 
-# When & Who 
+:::footer
+[Lin *et al.* 2020. *The TRUST Principles for digital repositories* Scientific data](https://www.nature.com/articles/s41597-020-0486-7)
+:::
 
-Timeline, Roles & Responsibilities
-
-20 min
-
-# How to Guide 
-
-Data Management Plans, Data Collection & Analysis, Archiving & Sharing
-
-45 min
 
 
 # Future 
@@ -347,68 +417,6 @@ Emerging Trends & Opportunities
 
 
 
-
-## More than papers 
-
-- researchers produce a diversity of artefacts 
-- among which **data** are increasingly important 
-- more than papers https://www.crossref.org/services/event-data/
-- Dataset are now published standalone
-
-
-## Data 
-
-- a definition of data 
-- 5 V of Big data (different concept but useful here)
-- **Volume**, **Variety**, Velocity, Veracity, and **Value**
-
-
-
-## Data explosion 
-
-- Volume
-- New question, new horizon ==> more data 
-- Researchers now access powerful tools enabling unprecedented data collection.
-- Example: Large Hadron Collider produced ~40 Zettabytes in 2017 (Clissa et al., 2023).
-
-
-
-## Data explosion 
-
-![](img/datasphere.png)
-
-- https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf
-- https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf
-
-
-
-
-
-## Data explosion 
-
-![](img/bigData.png)
-
-- Clissa L, Lassnig M, Rinaldi L. 2023. How big is Big Data? A comprehensive survey of data production, storage, and streaming in science and industry. Frontiers in Big Data 6:1271639. DOI: [10.3389/fdata.2023.1271639](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full).
-
-
-
-
-
-## Data heterogeneity 
-
-- Variety
-- Various objects, various to store data, various technologies, etc.
-- Data vary widely across and within disciplines.
-- Lack of standardized formats hinders integration and reuse.
-- Legacy practices (e.g., local storage) limit access and preservation.
-
-
-## Open science movement 
-
-- Open Science 
-- Open Access
-- Reproducible research
-- change in Journal and Funding agencies policies
 
 
 ## Importance of Standards & Metadata
@@ -609,26 +617,8 @@ Emerging Trends & Opportunities
 - https://polardata.ca/
 
 
-## Workflow 
-
-![](img/data_flow.svg)
 
 
-
-
-
-## The Future of RDM
-
--
-
-
-
-# Take home
-
-
-## Timeline 
-
-![](img/timeline.png)
 
 
 
