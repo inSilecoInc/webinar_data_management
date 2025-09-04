@@ -58,15 +58,20 @@ Data & Open Science
 
 ## More than papers  
 
-- Researchers produce a **diversity of artefacts**  
+- Researchers produce a **diversity of artefacts**
+  - 🫙 protocols
+  - 💻 code
+  - 💾 data 
+  - 📢 public debates
 - Among these, **data** are increasingly important  
-- More than papers → [Crossref Event Data](https://www.crossref.org/services/event-data/)  
+- More than papers ➡️ [Crossref Event Data](https://www.crossref.org/services/event-data/)  
 - Datasets are now published standalone  
 
 
 ## What is “data”?  
 
-- Broad definition: recorded information supporting research findings  
+- Broad definition: **recorded information supporting research findings**  
+  - could inculde, e.g., 💻 code
 - Data can be **qualitative** or **quantitative**  
 - Useful lens: the **5 V’s of Big Data**  
   - **Volume**, **Variety**, Velocity, Veracity, and **Value**  
@@ -76,10 +81,18 @@ Data & Open Science
 
 :::: {.columns}
 
+::: {.callout-tip }
+### GBIF: Global Biodiversity Information Facility
+:::
+
 ::: {.column width="60%"}
-- New questions & horizons → more data  
-- Powerful tools enabling unprecedented data collection  
-- Ex: Large Hadron Collider → ~40 Zettabytes in 2017
+- New questions & horizons ➡️ more data  
+- Powerful technologies/tools enabling unprecedented data collection  
+- Ex: Large Hadron Collider ➡️ ~40 Zettabytes in 2017
+- Ex: GBIF
+  - 125 million records in 2007 
+  - 1.6 billion in 2020
+  - **1,150% increase in just 13 years**
 :::
 
 ::: {.column width="40%"}
@@ -96,6 +109,8 @@ Data & Open Science
 [Seagate WP DataAge 2025](https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf)
 &nbsp; ***·*** &nbsp;
 [Clissa *et al.* 2023. *How big is Big Data?* Frontiers in Big Data](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full)
+&nbsp; ***·*** &nbsp;
+[Mason *et al.* 2021. *Data integration enables global biodiversity synthesis* PNAS](https://www.pnas.org/doi/10.1073/pnas.2018093118)
 :::
 
 
@@ -104,7 +119,6 @@ Data & Open Science
 :::: {.columns}
 
 ::: {.column width="70%"}
-- As important as volume  
 - Different objects, storage formats, technologies  
 - Data vary widely across and within disciplines  
 - Lack of standards hinders integration and reuse  
