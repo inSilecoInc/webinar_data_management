@@ -42,13 +42,14 @@
   font-style: italic;
 }
 
-.reveal .slide-footer {
-  text-align: center !important;
-  font-size: 80% !important;
-}
-
 /* Reduce default body text size to 80% */
 .reveal p,
 .reveal li {
   font-size: 80% !important;
+}
+
+
+.reveal .slide-footer {
+  text-align: center !important;
+  font-size: 120% !important;
 }

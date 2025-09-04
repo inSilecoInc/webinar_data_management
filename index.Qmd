@@ -16,16 +16,13 @@ format:
 
 ## Webinar Structure  
 
-::: {.callout-tip}
-### RDM: Research Data Management
-:::
-
 0. ***Welcome*** (5 min)
-1. ***Why*** (20 min)
-2. ***When & Who*** (20 min)
-3. ***How to Guide*** (45 min)
-4. ***Future*** (10 min)
-5. ***Q&A*** (10 min)
+1. ***Why*** (10 min)
+2. ***What*** (10 min)
+3. ***When & Who*** (20 min)
+4. ***How to Guide*** (45 min)
+5. ***Future*** (10 min)
+6. ***Q&A*** (10 min)
 
 # Welcome
 
@@ -45,12 +42,8 @@ format:
 
 ***inSileco*** & ***ArcticNet*** **(since 2023)**
 
-::: {.callout-tip}
-### DMP: Data Management Plan
-:::
-
-- Develop criteria for project DMPs
-- Review and provide feedback on project DMPs
+- Develop criteria for project Data Management
+- Review and provide feedback on project Data Management Plans
 - Support researchers with RDM practices and tools
 - Maintain and expand ArcticNet’s long-term data archive
 - Deliver training and capacity building (e.g. this webinar)
@@ -59,27 +52,9 @@ format:
 
 # Why 
 
-Background, Policies & Benefits
+Data & Open Science
 
-20 min
-
-
-## Why RDM matters
-
-- Data is a **research output**, not just a by-product  
-- Ensures **reproducibility** and transparency  
-- Facilitates **collaboration** across disciplines and institutions  
-- Supports **FAIR** Principles
-- Aligns with **CARE** Principles for Indigenous data  
-
-::: {.callout-tip }
-### FAIR: Findable, Accessible, Interoperable, Reusable
-:::
- 
-::: {.callout-tip }
-### CARE: Collective Benefit, Authority to Control, Responsibility, Ethics
-:::
-
+10 min
 
 ## More than papers  
 
@@ -148,97 +123,154 @@ Background, Policies & Benefits
 :::
 
 
-## Open Science → Policies
+## Open Science
 
-- Ecosystem shift toward **Open Science, Open Access, Reproducibility**  
-- Changing **journal & funder** expectations  
-- **Tri-Agency RDM Policy (2021)**  
-  - Institutions: publish RDM strategies  
-  - Researchers: DMPs & data deposit in trusted repositories  
-- Canada aligning with **international Open Science**
+:::: {.columns}
+
+::: {.column width="70%"}
+Shift in research ecosystem:  
+
+- **Open Science** 
+  - research → transparent and accessible  
+- **Open Access**
+  - publishing → results freely available  
+- **Reproducible research**
+  - practices → trust & verification  
+
+Increasingly drives **journal & funder expectations**  
+
+Sets the stage for today's **policies and compliance frameworks**
+:::
+
+::: {.column width="30%"}
+[![](img/unesco_open_science1.png){width=80%}](img/unesco_open_science_full.png)
+[![](img/unesco_open_science2.png){width=80%}](img/unesco_open_science_full.png)
+:::
+
+:::: 
+
+
+:::footer
+[UNESCO's Open Science Toolkit](https://www.unesco.org/en/open-science/toolkit)
+:::
+
+
+## Why this matters for you
+
+::: {.callout-tip}
+### IRP: Interdisciplinary Research Program
+:::
+
+- Data is now a **primary research output**  
+- Proper management increases **visibility & citations**  
+- Reduces risk of **data loss or inaccessibility**  
+- Strengthens **compliance** with funders & journals  
+- Builds a foundation for **collaboration in IRPs**  
+
+
+## Key takeaways
+
+- Research outputs go **beyond papers** → **data is central**  
+- The **explosion & heterogeneity** of data create new challenges  
+- The **Open Science movement** drives funder and journal expectations  
+- For IRPs, effective data management enables **collaboration, compliance, and visibility**  
+- Data management is not just compliance — it is a **path to better science**  
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+# What 
+
+Definition, Policies & Benefits
+
+10 min
+
+## What is RDM?
+
+::: {.callout-tip}
+### RDM: Research Data Management
+:::
+
+:::: {.columns}
+
+::: {.column width="55%"}
+- **Active management** of research data across its lifecycle  
+- Includes planning, documentation, storage, preservation, sharing  
+- Ensures data are **usable, accessible, trustworthy**  
+- Encompasses both **technical practices** and **governance**
+:::
+
+::: {.column width="45%"}
+[![](img/dcc_lifecycle_model.jpg){width=100%}](img/dcc_lifecycle_model.jpg)
+:::
+
+:::: 
+
+
+
+:::footer
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+&nbsp; ***·*** &nbsp;
+[Digital Curation Centre](https://www.dcc.ac.uk/guidance/curation-lifecycle-model)
+:::
+
+## Benefits of RDM
+
+- Greater **visibility & citations** for datasets  
+- Reduced **risk of loss** (backups, repositories)  
+- Stronger **collaboration & integration** across teams and institutions  
+- Improved **efficiency** via organized workflows  
+- Network-level governance fosters **new synergies**  
+- Enhanced **credibility & compliance** with funders  
+
+## RDM in IRPs
+
+- **Scale & complexity**: multiple projects, teams, and disciplines  
+- **Heterogeneity**: diverse data types, methods, and formats  
+- **Collaboration**: shared datasets across institutions & regions  
+- **Continuity**: long program lifespans require robust preservation  
+- **Accountability**: funder compliance + community expectations  
+- **Opportunities**: well-managed data fosters reuse, integration, and new insights  
+
+
+## Tri-Agency RDM Policy (2021)
+
+- **Applies across NSERC, SSHRC, CIHR**  
+- Institutions must develop and publish **institutional RDM strategies**  
+- Researchers are expected to:  
+  - Prepare and maintain **Data Management Plans**  
+  - Deposit data in **trusted repositories** when appropriate  
+- Ensures Canadian research aligns with **international open science practices**  
+- Compliance increasingly linked to **funding requirements**  
 
 :::footer
 [Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
 :::
 
-## Benefits & opportunities
 
-- Greater **visibility & citations** for datasets  
-- Reduced **risk of loss** (backups, repositories)  
-- Stronger **collaboration & integration** across teams  
-- Improved **efficiency** via organized workflows  
-- Network-level governance fosters **new synergies**  
-- Enhanced **credibility & compliance** with funders
+## ArcticNet’s Policy (2025)
 
-## ArcticNet 
-
-
-- The ADMP applies to **all data generated wholly or partially from ArcticNet–funded research**, viewing it as a **public good**, while respecting privacy, ethics, and intellectual property. 
-- **Key Objectives**:
-  - Implement national/international **best practices** in data stewardship  
-  - Maximize accessibility, avoid duplication, promote reuse—especially for Inuit, First Nations and Métis communities
-  - Uphold **FAIRness**, encourage interdisciplinary sharing and responsible handling of **sensitive data**
-  - Support **data sovereignty**: respect CARE principles (and distinctions-based guidance like OCAP®, NISR) for Indigenous data governance  
+- Applies to **all data generated from ArcticNet–funded research**  
+- Views data as a **public good**, while respecting privacy, ethics, and intellectual property  
+- **Objectives**:  
+  - Apply **best practices** in stewardship  
+  - Promote **accessibility, reuse, and transparency**  
+  - Support **FAIR principles** and responsible use of sensitive data  
+  - Respect **Indigenous data sovereignty** (CARE, OCAP®, NISR)  
+- Provides the policy framework for how projects should manage data  
+  → *Practical requirements are covered in the **How to Guide** section*  
 
 :::footer
 [ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
 :::
-
-## ArcticNet
-
-### Guiding Principles
-
-| Principle | Description |
-|----------|-------------|
-| **Open Yet Protected** | Data & metadata should be as **open as possible**, and as **closed as necessary** (e.g. embargoes, privacy, confidentiality)   |
-| **Citable & Preserved** | ArcticNet data must be **citable**, **publishable**, and **preserved**, with interoperability and links across platforms  
-| **Infrastructure & Support** | Encourage use of existing interoperable systems; support researchers via training, resources, and outreach  
-
-:::footer
-[ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
-:::
-
-## ArcticNet
-
-### Requirements for Research Projects
-
-- **Mandatory DMP**: Projects must create and continually update a Data Management Plan covering lifecycle stages, responsibilities, metadata, ethics, etc.
-- **Metadata & Standards**: Use accepted disciplinary metadata standards (e.g., ISO, FGDC, Dublin Core); submit rich metadata early; failure to do so may delay funding releasesArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)  
-- **Storage & Preservation**: Researchers choose certified repositories (e.g., Nordicana-D, Polar Data Catalogue, GBIF, OBIS) and plan for long-term archival using preservation-friendly formatsArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)  
-- **Access & Sharing**: Data must be published openly when appropriate; exceptions include sensitive or Indigenous data, which must be justified in the DMP
-- **Sensitive & Indigenous Data**: Follow anonymization, privacy protections, and engage Indigenous communities fully—respect CARE, OCAP®, NISR protocols 
-- **Monitoring & Reporting**: Annual progress reports must include metadata links and any data-related incidents; researchers must notify and report security breaches within 24 hours  
-
-:::footer
-[ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Key takeaways
 
-- Research is **more than papers** → **data is central**  
-- **Volume & Variety** demand better practices  
-- Policies (ArcticNet, SN, Tri-Agency) make RDM **essential**  
-- RDM is not only compliance — it **benefits researchers & networks**
-
-
+- RDM = **active management of research data** across its lifecycle  
+- Benefits are real: **visibility, efficiency, compliance, and collaboration**  
+- IRPs face special challenges: **scale, heterogeneity, collaboration, continuity**  
+- Policies matter: **Tri-Agency RDM Policy** (national) and **ArcticNet ADMP** (network) set the expectations  
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -247,8 +279,25 @@ Background, Policies & Benefits
 
 
 
+---
 
 
+::: {.callout-tip }
+### FAIR: Findable, Accessible, Interoperable, Reusable
+:::
+ 
+::: {.callout-tip }
+### CARE: Collective Benefit, Authority to Control, Responsibility, Ethics
+:::
+
+::: {.callout-tip}
+### DMP: Data Management Plan
+:::
+
+- Data is a **research output**, not just a by-product  
+- Ensures **reproducibility** and **transparency**  
+- Facilitates **collaboration** across disciplines and institutions  
+- Supports **FAIR** and **CARE** Principles (more on this later) 
 
 
 
