@@ -827,6 +827,77 @@ Emerging Trends & Opportunities
 
 10 min
 
+## The Future of RDM in IRPs
+
+- Large IRPs = diverse teams, methods, data cultures  
+- Fully centralized governance is often impractical  
+- Future opportunity lies in metadata interoperability  
+- Structured, machine-readable metadata enriched with PIDs  
+- Foundation for all downstream capabilities  
+
+
+
+## Metadata interoperability first
+
+- Describe data consistently across projects  
+- Use structured fields + persistent identifiers (PIDs)  
+  - ORCID (people)  
+  - ROR (institutions)  
+  - DOI (datasets, publications)  
+- Unlocks discovery, integration, and reuse at scale  
+
+
+
+## Modular, not monolithic
+
+- Strategy: lightweight, interoperable tools  
+- Preserve project autonomy while enabling network-wide coordination  
+- Shared metadata practices > centralized platforms  
+- Example: visualization-led collaboration in other programs  
+
+
+
+## Machine-actionable DMPs (maDMPs)
+
+- Evolve traditional DMPs into dynamic metadata registries  
+- Articulate practices using structured fields & PIDs  
+- Program-wide maDMPs can:  
+  - Feed repositories & dashboards  
+  - Build PID graphs linking data–people–institutions–funding  
+  - Expose synergies & track reuse  
+
+
+
+## New capabilities from interoperability
+
+- Automated validation → check datasets archived as planned  
+- Semantic search → discover data by concepts, not just keywords  
+- Dashboards → visualize activity, reuse, collaboration networks  
+- Reproducible workflows → connect metadata with pipelines (RO-Crate, Snakemake, Targets)  
+
+
+## AI opportunities for IRPs
+
+- **Structured metadata** is the prerequisite for AI at scale  
+- Enables automated knowledge graphs of people–data–projects  
+- Supports cross-project synthesis and **trend discovery
+- Moves RDM from compliance → intelligence infrastructure 
+
+## Toward FAIR-by-design IRPs
+
+- Embed metadata interoperability from project planning onward  
+- Ensure data is discoverable, trackable, reusable by default  
+- Strengthen attribution and impact reporting  
+- Transform IRPs into knowledge hubs, not just funding umbrellas  
+
+
+
+## Key takeaways
+
+- Metadata interoperability is the foundation  
+- Enables discovery, dashboards, reproducibility, AI-driven synthesis  
+- Modular, interoperable tools preserve autonomy + foster coordination  
+- FAIR-by-design = long-term visibility, collaboration, and impact  
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 # *Q&A*
