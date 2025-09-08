@@ -19,12 +19,12 @@ format:
 0. ***Welcome*** (5 min)
 1. ***Why*** (10 min)
 2. ***What*** (10 min)
-3. ***When & Who*** (20 min)
+3. ***When & Who*** (10 min)
 4. ***How to Guide*** (45 min)
 5. ***Future*** (10 min)
 6. ***Q&A*** (10 min)
 
-# Welcome
+# *Welcome*
 
 ## About us
 
@@ -50,7 +50,7 @@ format:
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-# Why 
+# *Why*
 
 Data & Open Science
 
@@ -168,9 +168,6 @@ Data & Open Science
 :::
 
 
-
-
-
 ## Open Science
 
 :::: {.columns}
@@ -227,8 +224,8 @@ Sets the stage for today's **policies and compliance frameworks**
 
 
 
-
-# What 
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *What*
 
 Definition, Policies & Benefits
 
@@ -299,15 +296,18 @@ Definition, Policies & Benefits
 
 ## ArcticNet’s Policy (2025)
 
-- Applies to **all data generated from ArcticNet–funded research**  
-- Views data as a **public good**, while respecting privacy, ethics, and intellectual property  
+::: {.callout-tip }
+### FAIR: Findable, Accessible, Interoperable, Reusable
+:::
+
+- Applies to all ArcticNet–funded data
+- Views data as a public good, while respecting privacy, ethics, and intellectual property  
 - **Objectives**:  
-  - Apply **best practices** in stewardship  
-  - Promote **accessibility, reuse, and transparency**  
-  - Support **FAIR principles** and responsible use of sensitive data  
-  - Respect **Indigenous data sovereignty** (CARE, OCAP®, NISR)  
-- Provides the policy framework for how projects should manage data  
-  ➡️ *Practical requirements are covered in the **How to Guide** section*  
+  - Apply best practices in stewardship  
+  - Promote accessibility, reuse, and transparency
+  - Uphold FAIR Principles and protect sensitive data
+  - Respect Indigenous data sovereignty
+- Sets the policy framework ➡️ details in the **How to Guide**
 
 :::footer
 [ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
@@ -323,32 +323,120 @@ Definition, Policies & Benefits
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-
-
-
-
-
-
-
-
-# When & Who 
+# *When & Who*
 
 Timeline, Roles & Responsibilities
 
-20 min
+10 min
+
+## Why timing matters in IRPs
+
+- IRPs = distributed ecosystems ➡️ diverse goals, methods, and data practices  
+- Effective RDM must start early and continue throughout the program  
+- Early planning unlocks future reuse & collaboration
+- Data as an infrastructure for collaboration
 
 
-## Timeline 
+## Timeline and dual responsibilities
 
-![](img/timeline.png)
+*Network: balance autonomy & coordination*
+
+:::: {.columns}
+::: {.column width="40%"}
+- Standards & templates
+- Tools for metadata & discovery
+- Review, feedback & training
+- Synthesize & report
+:::
+
+::: {.column width="60%"}
+[![](img/timeline.png){width=100%}](img/timeline2.png)
+:::
+::::
+
+## Timeline and dual responsibilities
+
+*Researchers: manage and document project data responsibly*
+
+:::: {.columns}
+::: {.column width="40%"}
+- Proposal & tentative DMP
+- Develop and maintain project-level DMP  
+- Collect & document
+- Analyze
+- Archive
+:::
+
+::: {.column width="60%"}
+[![](img/timeline2.png){width=100%}](img/timeline2.png)
+:::
+::::
+ 
+
+## Benefits of shared responsibility
+
+- **For Researchers**  
+  - Reduced administrative burden (network reviews, templates, tools)  
+  - Increased visibility and citations for datasets  
+  - Easier compliance with funder requirements  
+  - Improved data reuse and discovery  
+  - Unexpected collaborations & new insights  
+
+## Benefits of shared responsibility
+
+- **For Researchers**  
+  - Reduced administrative burden (network reviews, templates, tools)  
+  - Increased visibility and citations for datasets  
+  - Easier compliance with funder requirements  
+  - Improved data reuse and discovery  
+  - Unexpected collaborations & new insights  
+
+- **For the Network & IRP**  
+  - Better integration of diverse datasets  
+  - Ability to track collaboration & impact  
+  - Stronger collective legacy beyond the program  
+  - Data infrastructure that supports future research  
 
 
-# How to Guide 
+## Key takeaways
 
-Data Management Plans, Data Collection & Analysis, Archiving & Sharing
+- Researcher responsibilities are central but part of a bigger system
+- Timing matters: plan early, update often, archive at the end  
+- Network-level support transforms isolated datasets into drivers of collaboration
+- By speaking a common metadata language, IRPs ensure outputs remain visible, connected, and reusable
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *How to Guide*
+
+Data Management Plan, Collection & Analysis, Archiving & Sharing
 
 45 min
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+## How to Guide
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+# *Data Management Plan*
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+# *Collection & Analysis*
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+# *Archiving & Sharing*
+
+
+
+
+
+
 
 
 ---
@@ -404,14 +492,16 @@ Data Management Plans, Data Collection & Analysis, Archiving & Sharing
 
 
 
-# Future 
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *Future*
 
 Emerging Trends & Opportunities
 
 10 min
 
 
-# Q&A
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *Q&A*
 
 10 min
 
