@@ -53,3 +53,27 @@
   text-align: center !important;
   font-size: 120% !important;
 }
+
+.reveal .slides section[class*="with-"]::after {
+  content: "";
+  background-size: autp 60px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150;
+  height: 60px;
+}
+
+/* Map specific classes to images */
+.reveal .slides section.with-dmp_icon::after {
+  background-image: url("img/DMP_icon.png");
+}
+
+.reveal .slides section.with-collection_icon::after {
+  background-image: url("img/collection_icon.png");
+}
+
+.reveal .slides section.with-archive_icon::after {
+  background-image: url("img/archiving_icon.png");
+}

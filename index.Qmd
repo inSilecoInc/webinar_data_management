@@ -12,6 +12,11 @@ format:
     incremental: false
     toc: false
     toc-depth: 2
+    include-in-header:
+      - text: |
+          <!-- Font Awesome 6 -->
+          <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 ---
 
 ## Webinar Structure  
@@ -255,6 +260,8 @@ Definition, Policies & Benefits
 
 
 :::footer
+[McGill video capsule](https://www.youtube.com/watch?v=Jm7qIkrL3wM)
+&nbsp; ***·*** &nbsp;
 [Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
 &nbsp; ***·*** &nbsp;
 [Digital Curation Centre](https://www.dcc.ac.uk/guidance/curation-lifecycle-model)
@@ -360,8 +367,8 @@ Timeline, Roles & Responsibilities
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Proposal & tentative DMP
-- Develop and maintain project-level DMP  
+- Proposal & tentative data management plan
+- Develop and maintain project-level data management plan
 - Collect & document
 - Analyze
 - Archive
@@ -415,75 +422,195 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-## How to Guide
+## Practical Guide for Researchers
+
+<br>
+
+***Goal:*** *Equip Researchers with concrete steps to manage data responsibly, efficiently, and in line with network & funder expectations.*
+
+<br>
+
+![](img/DMP.png){width=30%}
+![](img/collection.png){width=30%}
+![](img/archiving.png){width=30%}
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-# *Data Management Plan*
+# 
+
+<div style="width:40%; margin: 0 auto;">
+  <img src="img/DMP.png">
+</div>
 
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-# *Collection & Analysis*
-
-
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-# *Archiving & Sharing*
-
-
-
-
-
-
-
-
----
-
-::: {.callout-tip }
-### FAIR: Findable, Accessible, Interoperable, Reusable
-:::
- 
-::: {.callout-tip }
-### CARE: Collective Benefit, Authority to Control, Responsibility, Ethics
-:::
-
-::: {.callout-tip }
-### TRUST: Transparency, Responsability, User Focus, Sustainabiilty 
-:::
+## Importance
 
 ::: {.callout-tip}
 ### DMP: Data Management Plan
 :::
 
-- Data is a **research output**, not just a by-product  
-- Ensures **reproducibility** and **transparency**  
-- Facilitates **collaboration** across disciplines and institutions  
-- Supports **FAIR** and **CARE** Principles (more on this later) 
+> A Data Management Plan (DMP) is a formal document that outlines how data will be handled during and after a project.  
+
+> Required by many funders, including Tri-Agency and ArcticNet.  
+
+- Ensures feasibility of research proposals  
+- Demonstrates responsible stewardship of public funds  
+- Sets expectations for storage, sharing, and preservation  
+
+:::footer
+[McGill video capsule](https://www.youtube.com/watch?v=p_JzQxxC4ts)
+&nbsp; ***·*** &nbsp;
+[Harvard guide](https://datamanagement.hms.harvard.edu/plan-design/data-management-plans)
+&nbsp; ***·*** &nbsp;
+[DMP Assistant templates](https://dmp-pgd.ca/public_templates)
+:::
+
+
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+---
+
+## What goes in a DMP?
+
+::: {.callout-note}
+### Details covered in later sections (*Collection & Analysis*, *Archiving & Sharing*)
+:::
+
+- **Data collection** → types, formats, protocols 
+- **Documentation & metadata** → standards, tools, timing 
+- **Storage & preservation** → storage, backups, repositories
+- **Sharing & reuse** → access levels, licensing, citations
+- **Legal & ethics** → privacy, Indigenous data sovereignty
+- **Responsibilities** → who does what, and when  
+
+
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+---
+
+## Why DMPs matter in IRPs
+
+- IRPs = **distributed ecosystems** → diverse goals, data, practices  
+- Collective DMPs give **visibility** into expected outputs  
+- Enable **early coordination** of standards and tools  
+- Reveal **overlaps, synergies, and cost-sharing opportunities**  
+- Reduce duplication and improve program coherence  
+
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+---
+
+## Principles to guide DMPs
+
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {style="font-size: 80%;"}
+**[FAIR](https://www.nature.com/articles/sdata201618) Principles**
+
+- `(F)` Findable
+- `(A)` Accessible
+- `(I)` Interoperable
+- `(R)` Reusable
+
+<br> 
+
+**Goals:**
+
+- Make data easy to discover through rich metadata  
+- Ensure data can be accessed under clear conditions  
+- Promote interoperability across disciplines & tools  
+- Enable reuse through licenses & clear documentation  
+
+:::
+:::
+
+::: {.column width="40%"}
+[![](img/fair.png)](img/fair.png)
+:::
+
+::::
+
+
+:::footer
+[Wilkinson *et al.* 2016. *The FAIR Guiding Principles for scientific data management and stewardship*](https://www.nature.com/articles/sdata201618)
+:::
+
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
 
-## Platforms
+## Principles to guide DMPs
 
-## Workflow 
+:::: {.columns}
 
-![](img/data_flow.svg)
+::: {.column width="60%"}
+::: {style="font-size: 80%;"}
+**[CARE](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles**
+
+- `(C)` Collective Benefit
+- `(A)` Autority to Control
+- `(R)` Responsibility
+- `(E)` Ethics
+
+<br> 
+
+**Goals:**
+
+- People- and purpose-oriented
+- First Nations data rights and governance
+- Inspired from [OCAP®](https://fnigc.ca/ocap-training/)
+- Complement FAIR Principles
+:::
+:::
+
+::: {.column width="40%"}
+[![](img/care.png)](img/care.png)
+:::
+
+::::
 
 
+:::footer
+[Russo Carroll *et al.* 2020. *The CARE Principles for Indigenous Data Governance*](https://datascience.codata.org/articles/10.5334/dsj-2020-043/)
+:::
 
-## TRUST 
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-<br>
 
-::: {style="font-size: 60%;"}
-| Principle      | Definition                                                                                           |
-|----------------|-------------------------------------------------------------------------------------------------------|
-| Transparency   | To be transparent about specific repository services and data holdings that are verifiable by publicly accessible evidence. |
-| Responsibility | To be responsible for ensuring the authenticity and integrity of data holdings and for the reliability and persistence of its service. |
-| User Focus     | To ensure that the data management norms and expectations of target user communities are met. |
-| Sustainability | To sustain services and preserve data holdings for the long-term. |
-| Technology     | To provide infrastructure and capabilities to support secure, persistent, and reliable services. |
+## Principles to guide DMPs
+
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {style="font-size: 80%;"}
+**[TRUST](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles**
+
+- `(T)` Transparency 
+- `(R)` Responsibility
+- `(U)` User Focus
+- `(S)` Sustainability
+- `(T)` Technology
+:::
+:::
+
+::: {.column width="50%"}
+[![](img/trust.png)](img/trust.png)
+:::
+
+::::
+
+::: {style="font-size: 80%;"}
+**Goals:**
+
+- Build confidence in digital repositories  
+- Ensure authenticity, integrity, and reliability of data  
+- Prioritize the needs of user communities  
+- Guarantee long-term preservation and accessibility  
+- Provide secure, persistent, and interoperable infrastructure  
 :::
 
 :::footer
@@ -491,134 +618,60 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 :::
 
 
+## Responsibilities
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-# *Future*
+- **PI** → prepare & maintain DMP, ensure team follows practices  
+- **Research team** → collect, document, share data as described  
+- **Network** → provide templates, review DMPs, training & support  
+- **Institutions/Libraries** → repositories & technical services  
 
-Emerging Trends & Opportunities
-
-10 min
-
-
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-# *Q&A*
-
-10 min
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
+## Role of the network
+
+- Provide **training** (RDM 101)  
+- Offer a **DMP template** tailored for ArcticNet  
+- Support **metadata creation** (e.g., Polar Data Catalogue)  
+- Encourage **synergies** among projects (shared protocols, platforms)  
+- Monitor compliance, foster harmonization  
+
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
+## Benefits of DMPs
 
-## Importance of Standards & Metadata
+- Stronger proposals (demonstrates feasibility & planning)  
+- Easier compliance with funders & journals  
+- Improved visibility and citations for datasets  
+- Early discovery of collaboration opportunities  
+- Long-term impact: data as a shared infrastructure  
 
-- Early metadata standards: Dublin Core.
-- Rise of FAIR principles as best practices in RDM.
-- Role of platforms like Zenodo and Dryad in supporting open data.
-
-
-## Gaps in Adoption
-
-- Data standards and practices unevenly adopted across scientific communities.
-- Especially problematic in interdisciplinary research projects (IRPs).
-
-
-## Opportunities Through Proactive RDM
-
-- Upstream coordination improves collaboration, data reuse, and long-term visibility.
-- Structured governance fosters unexpected synergies.
-
-
-## ArcticNet
-
-- Some short background history on ArcticNet and past initiatives in terms of data management
-- Imporve RDM practice over time
+<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
 
 
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
+# 
 
+<div style="width:40%; margin: 0 auto;">
+  <img src="img/collection.png">
+</div>
 
-<!-- ## Raw vs processed data  -->
+## Collection & Analysis
 
-<!-- > Some authors defend that data are realistically never raw, as they are always collected in a specific context that may be subject to bias and interpretation, which can have a significant impact on the results -->
-
-<!-- Don't think the actual voltage returned by any instrument is meaningful, so needs to add context (techno, intrument, etc.) and thus somewhat data are always sometime meaningful only after some treatment, e.g. sonar detection, etc. -->
-<!-- What data to be shared is discussed with the community -->
-
-<!-- Cunha-Oliveira T, Ioannidis JPA, Oliveira PJ. 2024. Best practices for data management and sharing in experimental biomedical research. Physiological Reviews 104:1387–1408. DOI: 10.1152/physrev.00043.2023. -->
-
-
-
-
-
-# Data Management Plan -- 30min
-
-## Importance 
-
-> A data management plan, or DMP, is a formal document that outlines how data will be handled during and after a research project. Many funding agencies, especially government sources, require a DMP as part of their application processes.
-
-- https://datamanagement.hms.harvard.edu/plan-design/data-management-plans
-- https://dmp-pgd.ca/public_templates
-
-- McGill: 
-  - RDM https://www.youtube.com/watch?v=Jm7qIkrL3wM
-  - DMP https://www.youtube.com/watch?v=p_JzQxxC4ts
-
+<img src="img/collection_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 ## Data collection 
+
+<img src="img/collection_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 - Protocols 
 - Types of data (e.g., observational, model outputs, images)
 - Formats and estimated volume
 - Structure and naming conventions
-
-## Documentation and Metadata
-
-- Standards used (e.g., ISO 19115, Darwin Core)
-- Tools or platforms used for metadata creation (e.g., Polar Data Catalog)
-- Timing of metadata creation (start early, update as needed)
-- ArcticNet will provide a template for PDC metadata submission
-
-## Storage, Backup, Preservation
-
-- How data will be stored 
-- How will you ensure that data will be preserved
-- V value 
-
-
-## Sharing and Reuse
-
-- Who will access the data and when (open, embargoed, restricted)
-- How data will be cited (DOIs or other persistent IDs)
-- Licensing terms (e.g., CC-BY, custom agreements)
-
-## Legal & Ethical Considerations
-
-- Privacy concerns, ethics approvals
-- Indigenous data sovereignty and OCAP/CARE principles
-- Embargo periods, licensing, or access restrictions
-
-
-## Responsibilities and Resources
-
-- Who is responsible of what?
-
-
-## Role of the network 
-
-- Support researchers in writing their DMP 
-- Ideally foresee potential synergies among researchers for data collection
-- Training: RDM 101
-- A DMP template for ArticNet?
-- Propose a list of platforms?
-
-
-
-
-
-# Data collection and analysis -- 20min
-
 
 ## Importance 
 
@@ -651,31 +704,55 @@ Emerging Trends & Opportunities
 
 
 
-# Archiving -- 30min
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-## Importance
+# 
 
-- Preserve and share data efficiently 
+<div style="width:40%; margin: 0 auto;">
+  <img src="img/archiving.png">
+</div>
+
+## Archiving & Sharing
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+## Documentation and Metadata
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- Standards used (e.g., ISO 19115, Darwin Core)
+- Tools or platforms used for metadata creation (e.g., Polar Data Catalog)
+- Timing of metadata creation (start early, update as needed)
+- ArcticNet will provide a template for PDC metadata submission
 
 
-## FAIR principles 
 
-- Explaining FAIR principles
+## Importance of Standards & Metadata
 
-> Wilkinson MD, et al. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3. DOI: 10.1038/sdata.2016.18.
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-
-
-## CARE principles
-
-- Explaining CARE principles
-
-> Carroll SR, et al. 2020. The CARE Principles for Indigenous Data Governance. Data Science Journal 19:43. DOI: 10.5334/dsj-2020-043.
+- Early metadata standards: Dublin Core.
+- Rise of FAIR principles as best practices in RDM.
+- Role of platforms like Zenodo and Dryad in supporting open data.
 
 
+
+## Storage, Backup, Preservation
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- How data will be stored 
+- How will you ensure that data will be preserved
+- V value 
+
+## Platforms
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
 ## Platforms infrastructure
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 - What do they do, how
 - Zenodo (https://www.openaire.eu/zenodo-relaunch)
@@ -688,10 +765,14 @@ Emerging Trends & Opportunities
 
 ## Zenodo 
 
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
 - What is it? How ot works?
 - https://www.openaire.eu/zenodo-relaunch
 
 ## Dataverse / Borealis
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 - What is it? How ot works?
 - https://dataverse.org/
@@ -699,16 +780,58 @@ Emerging Trends & Opportunities
 
 ## Siku
 
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
 - What is it? How ot works?
 
 ## PDC
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 - What is it? How ot works?
 - https://polardata.ca/
 
 
 
+## Workflow 
 
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+![](img/data_flow.svg)
+
+## Sharing and Reuse
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- Who will access the data and when (open, embargoed, restricted)
+- How data will be cited (DOIs or other persistent IDs)
+- Licensing terms (e.g., CC-BY, custom agreements)
+
+
+## Legal & Ethical Considerations
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- Privacy concerns, ethics approvals
+- Indigenous data sovereignty and OCAP/CARE principles
+- Embargo periods, licensing, or access restrictions
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *Future*
+
+Emerging Trends & Opportunities
+
+10 min
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *Q&A*
+
+10 min
 
 
 
@@ -730,13 +853,6 @@ Right column
 
 ::::
 
-## Slide with speaker notes
-
-Slide content
-
-::: {.notes}
-Speaker notes go here.
-::: -->
 
 
 <!-- medata have big role to evenetually feed IA using IA as sythesis tool -->
@@ -752,3 +868,15 @@ Speaker notes go here.
 <!-- ![](img/research_graph.png) -->
 
 <!-- > :book: Aryani A, et al. 2018. A Research Graph dataset for connecting research data repositories using RD-Switchboard. Scientific Data 5. DOI: 10.1038/sdata.2018.99. -->
+
+
+
+
+<!-- ## Raw vs processed data  -->
+
+<!-- > Some authors defend that data are realistically never raw, as they are always collected in a specific context that may be subject to bias and interpretation, which can have a significant impact on the results -->
+
+<!-- Don't think the actual voltage returned by any instrument is meaningful, so needs to add context (techno, intrument, etc.) and thus somewhat data are always sometime meaningful only after some treatment, e.g. sonar detection, etc. -->
+<!-- What data to be shared is discussed with the community -->
+
+<!-- Cunha-Oliveira T, Ioannidis JPA, Oliveira PJ. 2024. Best practices for data management and sharing in experimental biomedical research. Physiological Reviews 104:1387–1408. DOI: 10.1152/physrev.00043.2023. -->
