@@ -303,23 +303,24 @@ Definition, Policies & Benefits
 
 ## ArcticNet’s Policy (2025)
 
-::: {.callout-tip }
-### FAIR: Findable, Accessible, Interoperable, Reusable
+::: {.callout-note}
+### More details available in the *How to Guide* 
 :::
 
-- Applies to all ArcticNet–funded data
-- Views data as a public good, while respecting privacy, ethics, and intellectual property  
-- **Objectives**:  
-  - Apply best practices in stewardship  
-  - Promote accessibility, reuse, and transparency
-  - Uphold FAIR Principles and protect sensitive data
-  - Respect Indigenous data sovereignty
-- Sets the policy framework ➡️ details in the **How to Guide**
+**Objectives**:  
+
+- Apply best practices in data stewardship (national & international standards)  
+- Maximize value through accessibility, reuse, and transparency
+- Encourage collaboration and responsible data sharing
+- Provide guidance for sensitive data
+- Respect Indigenous data sovereignty
+
 
 :::footer
-[ArcticNet Data Management Policy](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
 :::
 
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
 
 ## Key takeaways
 
@@ -327,6 +328,7 @@ Definition, Policies & Benefits
 - Benefits are real: **visibility, efficiency, compliance, and collaboration**  
 - IRPs face special challenges: **scale, heterogeneity, collaboration, continuity**  
 - Policies matter: **Tri-Agency RDM Policy** (national) and **ArcticNet ADMP** (network) set the expectations  
+
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -416,47 +418,34 @@ Timeline, Roles & Responsibilities
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 # *How to Guide*
 
-Data Management Plan, Collection & Analysis, Archiving & Sharing
+Building your Data Management Plan
 
 45 min
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-## Practical Guide for Researchers
 
-<br>
-
-***Goal:*** *Equip Researchers with concrete steps to manage data responsibly, efficiently, and in line with network & funder expectations.*
-
-<br>
-
-![](img/DMP.png){width=30%}
-![](img/collection.png){width=30%}
-![](img/archiving.png){width=30%}
-
-
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-# 
-
-<div style="width:40%; margin: 0 auto;">
-  <img src="img/DMP.png">
-</div>
-
-
-## Importance
+## What is a DMP?
 
 ::: {.callout-tip}
 ### DMP: Data Management Plan
 :::
 
-> A Data Management Plan (DMP) is a formal document that outlines how data will be handled during and after a project.  
+> A Data Management Plan (DMP) is a formal document, typically 1-2 pages long, that outlines how data will be handled during and after a project.  
 
-> Required by many funders, including Tri-Agency and ArcticNet.  
+***Benefits:***
 
+::: {style="font-size: 80%;"}
+:::{.incremental}
+- Required by many funders, including Tri-Agency and ArcticNet.  
 - Ensures feasibility of research proposals  
 - Demonstrates responsible stewardship of public funds  
 - Sets expectations for storage, sharing, and preservation  
+- Foundation for good collaboration and reuse 
+- Easier compliance with certain journals
+- Improved visibility and citations for datasets  
+:::
+:::
 
 :::footer
 [McGill video capsule](https://www.youtube.com/watch?v=p_JzQxxC4ts)
@@ -467,28 +456,6 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 :::
 
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
----
-
-## What goes in a DMP?
-
-::: {.callout-note}
-### Details covered in later sections (*Collection & Analysis*, *Archiving & Sharing*)
-:::
-
-- **Data collection** → types, formats, protocols 
-- **Documentation & metadata** → standards, tools, timing 
-- **Storage & preservation** → storage, backups, repositories
-- **Sharing & reuse** → access levels, licensing, citations
-- **Legal & ethics** → privacy, Indigenous data sovereignty
-- **Responsibilities** → who does what, and when  
-
-
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
----
-
 ## Why DMPs matter in IRPs
 
 - IRPs = **distributed ecosystems** → diverse goals, data, practices  
@@ -497,24 +464,87 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 - Reveal **overlaps, synergies, and cost-sharing opportunities**  
 - Reduce duplication and improve program coherence  
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
----
+## ArcticNet Principles
 
-## Principles to guide DMPs
+***In other words: what is expected of you as a researcher***
+
+
+::: {style="font-size: 80%;"}
+:::{.incremental}
+- ArcticNet funded data = a **public good** → as open as possible, as closed as necessary  
+- Researchers must ensure:  
+  - **Timely sharing** → data made publicly available quickly, unless restricted 
+  - **Publish metadata** → publish and share your metadata (e.g. Polar Data Catalog)
+  - **Respect for Indigenous rights** → uphold Inuit, First Nations, and Métis ownership, access, and control (CARE, OCAP®, NISR)  
+  - **Citable & preserved** → data should be publishable, citable, and preserved when appropriate  
+  - **Interoperability & connectivity** → link with Canadian & international Arctic data systems, avoid duplication  
+  - **Best practices** → follow ethical, legal, cultural, and funder requirements; use existing infrastructure where possible  
+  - **Support & guidance** → researchers engage with training, outreach, and resources provided  
+:::
+:::
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+
+## Key sections of a DMP
+
+:::{.callout-tip}
+### Answer these questions **with substance** and you will have a complete DMP:  
+:::
+
+::: {style="font-size: 80%;"}
+::: {.incremental}
+1. <i class="fa-regular fa-circle"></i> **Data collection** → What data, formats, volume, protocols?  
+2. <i class="fa-regular fa-circle"></i> **Documentation & metadata** → How will data be described? Which standards?  
+3. <i class="fa-regular fa-circle"></i> **Storage & protection** → Where will working data live, and how is it protected?  
+4. <i class="fa-regular fa-circle"></i> **Data Analysis** → How will the data be analyzed? 
+5. <i class="fa-regular fa-circle"></i> **Preservation & archiving** → Which repository, which formats for long-term?  
+6. <i class="fa-regular fa-circle"></i> **Sharing & reuse** → Who can access it, when, under what license?  
+7. <i class="fa-regular fa-circle"></i> **Legal & ethics** → How are legal, privacy, consent, Indigenous data rights addressed?  
+8. <i class="fa-regular fa-circle"></i> **Roles & resources** → Who is responsible and what infrastructure is needed?  
+:::
+:::
+
+## Tools and templates
+
+- Use available tools if possible
+  - [DMP Assistant](https://dmp-pgd.ca/) (Canada’s online tool)  
+  - [DMP Tool](https://dmptool.org/)
+- Network may provide a **template** tailored to your program  
+- Examples and guidance available from:  
+  - [Harvard DMP resources](https://datamanagement.hms.harvard.edu/plan-design/data-management-plans)  
+  - [McGill videos](https://www.youtube.com/watch?v=p_JzQxxC4ts)  
+
+
+## Good practices
+
+:::{.callout-tip}
+### Tips to DMP by
+
+:::{.incremental}
+- **Start early** → draft DMP in the proposal stage  
+- Treat it as a **living document** → update as project evolves  
+- Reuse existing metadata forms / standards where possible (more on this later)
+- Keep it concise but **actionable**  
+- Align with **FAIR, CARE & TRUST** principles
+:::
+:::
+
+## [FAIR](https://www.nature.com/articles/sdata201618) Principles
 
 :::: {.columns}
 
 ::: {.column width="60%"}
 ::: {style="font-size: 80%;"}
-**[FAIR](https://www.nature.com/articles/sdata201618) Principles**
-
 - `(F)` Findable
 - `(A)` Accessible
 - `(I)` Interoperable
 - `(R)` Reusable
-
-<br> 
 
 **Goals:**
 
@@ -537,24 +567,18 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 [Wilkinson *et al.* 2016. *The FAIR Guiding Principles for scientific data management and stewardship*](https://www.nature.com/articles/sdata201618)
 :::
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
-
-## Principles to guide DMPs
+## [CARE](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
 
 :::: {.columns}
 
 ::: {.column width="60%"}
 ::: {style="font-size: 80%;"}
-**[CARE](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles**
-
 - `(C)` Collective Benefit
 - `(A)` Autority to Control
 - `(R)` Responsibility
 - `(E)` Ethics
-
-<br> 
 
 **Goals:**
 
@@ -576,19 +600,13 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 [Russo Carroll *et al.* 2020. *The CARE Principles for Indigenous Data Governance*](https://datascience.codata.org/articles/10.5334/dsj-2020-043/)
 :::
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-
-## Principles to guide DMPs
-
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+## [TRUST](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 ::: {style="font-size: 80%;"}
-**[TRUST](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles**
-
 - `(T)` Transparency 
 - `(R)` Responsibility
 - `(U)` User Focus
@@ -618,206 +636,928 @@ Data Management Plan, Collection & Analysis, Archiving & Sharing
 :::
 
 
-## Responsibilities
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-- **PI** → prepare & maintain DMP, ensure team follows practices  
-- **Research team** → collect, document, share data as described  
-- **Network** → provide templates, review DMPs, training & support  
-- **Institutions/Libraries** → repositories & technical services  
+# Practical Guide 
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+## DMP Checklist
 
+:::{.callout-note}
+### Goal
+:::{.incremental}
+- *Equip researchers with concrete steps to manage data responsibly, efficiently, and in line with network & funder expectations.*
+- *At the end, you should know what steps to undertake to prepare and update an adequate Data Management Plan*
+:::
+:::
 
-## Role of the network
+## DMP Checklist
 
-- Provide **training** (RDM 101)  
-- Offer a **DMP template** tailored for ArcticNet  
-- Support **metadata creation** (e.g., Polar Data Catalogue)  
-- Encourage **synergies** among projects (shared protocols, platforms)  
-- Monitor compliance, foster harmonization  
+::: {style="font-size: 90%;"}
+<i class="fa-regular fa-circle"></i> *Data collection*
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+<i class="fa-regular fa-circle"></i> *Documentation & metadata*
 
+<i class="fa-regular fa-circle"></i> *Storage & protection*
 
-## Benefits of DMPs
+<i class="fa-regular fa-circle"></i> *Data Analysis*
 
-- Stronger proposals (demonstrates feasibility & planning)  
-- Easier compliance with funders & journals  
-- Improved visibility and citations for datasets  
-- Early discovery of collaboration opportunities  
-- Long-term impact: data as a shared infrastructure  
+<i class="fa-regular fa-circle"></i> *Preservation & archiving*
 
-<img src="img/DMP_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+<i class="fa-regular fa-circle"></i> *Sharing & reuse*
 
+<i class="fa-regular fa-circle"></i> *Legal & ethics*
 
+<i class="fa-regular fa-circle"></i> *Roles & resources*
+
+:::
+
+<!--
+![](img/DMP.png){width=20%} 
+![](img/collection.png){width=20%}
+![](img/archiving.png){width=20%} 
+-->
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Data collection 
 
-# 
-
-<div style="width:40%; margin: 0 auto;">
+<div style="width:20%; margin: 0 auto;">
   <img src="img/collection.png">
 </div>
 
-## Collection & Analysis
+## Data collection
 
-<img src="img/collection_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+***Guiding Questions***
+
+::: {style="font-size: 80%;"}
+- What kinds of data will I collect?  
+- In which formats? Open or proprietary?  
+- How much data do I expect to generate?  
+- Which instruments, sensors, or methods will I use?  
+- How will I ensure quality control before, during, and after collection?  
+- How will I organize and label files?  
+:::
+
+<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+
+## Data collection
+
+***Core Elements***
+
+::: {style="font-size: 80%;"}
+- **Types of data** → observational, experimental, computational, derived  
+- **Formats & standards** → e.g., CSV, NetCDF, TIFF, Darwin Core, ISO 19115  
+- **Volume & scale** → estimated GB/TB, number of samples/records  
+- **Collection methods & instruments** → field protocols, sensors, lab assays, software pipelines  
+- **Quality assurance / quality control** → calibration, duplicate samples, error-checking  
+- **Organization & naming** → consistent file/folder naming, controlled vocabularies  
+- **Documentation** → field sheets, lab notebooks, e-logs, linking samples to metadata  
+:::
+
+<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
 
 ## Data collection 
 
-<img src="img/collection_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+***Some notes on file formats***
 
-- Protocols 
-- Types of data (e.g., observational, model outputs, images)
-- Formats and estimated volume
-- Structure and naming conventions
+:::: {.columns}
 
-## Importance 
+::: {.column width="50%"}
+::: {.callout-warning}
+### Avoid Proprietary & Unsuitable Formats  
 
-- Actual work
-- During collection, focus on collection, note all details 
-- During analysis phase, write down the metadata
-- Write metadata for PDC?
+::: {style="font-size: 80%;"}
+- Not all formats are sustainable for long-term research data. Avoid using:  
+- Proprietary formats: require specific software that may become unavailable (ex. .xlsx, .shp, .sav, .psd, .docx with macros)
+- Formats with strong version-dependence: older/newer versions may be unreadable without exact software (ex. ArcGIS-only file types)  
+- Compressed / lossy formats: reduce data quality and limit reuse (ex. .jpg, .mp3)  
+- Encrypted or password-protected files: block discovery, reuse, and preservation workflows  
+
+**Rule of thumb:** if a file requires special software, or might lose information when saved, it’s not a good archival format.  
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip}
+### Preferred Open Formats by Data Type  
+
+::: {style="font-size: 100%;"}
+- Tabular data → CSV, Parquet 
+- Spatial data → GeoPackage, GeoTIFF, NetCDF  
+- Images → TIFF (uncompressed), PNG  
+- Audio / Video → WAV, MP4 (H.264 codec)  
+- Text / Documents → TXT, PDF/A, XML, JSON  
+- Metadata → XML, JSON, standardized schemas (e.g., ISO 19115, Darwin Core)  
+
+- Choose formats that are:  
+  - Open & non-proprietary  
+  - Well-documented & widely supported  
+  - Sustainable for long-term preservation  
+:::
+:::
+:::
+
+::::
+
+<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+## Data collection 
+
+***What are data standards?***
+
+::: {style="font-size: 80%;"}
+- Define how data is structured and formatted
+- Ensure datasets are consistent and interoperable across projects  
+- Often discipline-specific → adopt community norms  
+- Examples:  
+  - **Darwin Core** → biodiversity occurrence records  
+  - **NetCDF** → climate & oceanographic data  
+  - **FASTQ** → DNA sequencing reads  
+:::
+
+::: {.callout-note}
+### Data standards vs Metadata standards
+Data standards are closely related to metadata standards, but they serve different purposes. 
+
+See next section for Metadata standards.
+:::
+
+<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::footer
+[FAIRsharing.org](https://fairsharing.org/)
+:::
+
+## Data collection
+
+***Quality Assurance / Quality Control (QA/QC)***
+
+::: {style="font-size: 80%;"}
+- **Before collection** → instrument calibration, standardized protocols  
+- **During collection** → duplicate/triplicate samples, control samples, field blanks  
+- **After collection** → validation checks, error detection, version tracking  
+:::
+
+<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 
-## Metadata 
+## Data collection
 
-- metadata =  data that describe data 
-- Contextualize data 
-- A central element in sharing data internally and externally (data catalogue)
+***Organization & naming***
+
+::: {style="font-size: 80%;"}
+- Use **consistent, descriptive file & folder names**  
+- Avoid spaces/special characters → use `_` or `-`
+- Include **versioning & dates** (e.g., `projectA_samples_2025-03-01_v1.csv`)  
+- Organize folders by project/study/site/date rather than by researcher’s preference  
+- Use **controlled vocabularies / ontologies** where available → interoperability
+:::
+
+<br>
+
+::: {.callout-tip}
+### Do & Don’t  
+✅ `lakeC_fieldnotes_2025-03-01_v2.csv`  
+❌ `data latest & updated.xlsx`  
+:::
+
+:::footer
+[Cornell RDM: File Organization](https://data.research.cornell.edu/data-management/storing-and-managing/file-management/)
+&nbsp; ***·*** &nbsp;
+[Stanford Libraries: File Naming](https://guides.library.stanford.edu/data-best-practices)
+&nbsp; ***·*** &nbsp;
+[FAIRsharing](https://fairsharing.org/)
+&nbsp; ***·*** &nbsp;
+[OBO Foundry](http://obofoundry.org/)
+&nbsp; ***·*** &nbsp;
+[TDWG](https://www.tdwg.org/)
+:::
 
 
-## One example: Dublin Core
+<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-- 2-3 slides about the grammar of the Dublin Core
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+# Documentation & metadata
+
+<div style="width:20%; margin: 0 auto;">
+  <img src="img/metadata.png">
+</div>
+
+## Documentation & metadata
+
+***Guiding Questions***
+
+::: {style="font-size: 80%;"}
+- How will I document my data so that others (or my future self) can understand it?  
+- Which metadata standard(s) will I use?  
+- Where and how will metadata be created and stored?  
+- When will metadata be created and updated?  
+- How will I ensure metadata uses controlled vocabularies and persistent IDs?  
+:::
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+## Documentation & metadata
+
+***Core Elements***
+
+::: {style="font-size: 80%;"}
+- **Documentation practices** → lab/field notebooks, data dictionaries, README files, protocols  
+- **Metadata standards** → Dublin Core, ISO 19115, Darwin Core, DataCite Schema  
+- **Tools & platforms** → Polar Data Catalogue, FRDR, ISA tools  
+- **Timing** → start at project onset, update regularly, finalize at archiving  
+- **Interoperability** → controlled vocabularies, ontologies, persistent identifiers (DOI, ORCID, ROR)  
+:::
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+## Documentation & metadata  
+
+***What are metadata & metadata standards?***  
+
+::: {style="font-size: 80%;"}  
+- Define how datasets are described (the context, not the content)  
+- Ensure data are findable, interpretable, and reusable  
+- Provide consistent fields for *who, what, where, when, how* 
+- Examples:  
+  - **Dublin Core** → general-purpose descriptors  
+  - **ISO 19115** → geospatial metadata  
+  - **Darwin Core** → biodiversity metadata  
+  - **DataCite Schema** → dataset metadata for DOIs  
+:::  
+
+::: {.callout-note}  
+### Metadata standards vs Data standards  
+Metadata standards describe the data itself (context & discovery), while data standards define how the data is structured. Together, they ensure interoperability and reuse.  
+:::  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::footer  
+[FAIRsharing.org](https://fairsharing.org/)  
+:::
 
 
-## Role of the network
+## Documentation & metadata  
 
-- define a metadata standard for the project
-- supporting researchers in writing metadata
-- ideally setting tools to manage metadata
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-> Pacharra M, Otto T, Winter NOC. 2025. From Bench to Brain: A Metadata-driven Approach to Research Data Management in a Collaborative Neuroscientific Research Center. Data Science Journal 24:2. DOI: 10.5334/dsj-2025-002. https://datascience.codata.org/articles/10.5334/dsj-2025-002
+***Dublin Core: What is it?***
+
+- A **generic metadata standard** used across disciplines  
+- Provides a **basic set of 15 elements** to describe digital objects  
+- Focused on: **who, what, where, when**  
+- Works across repositories, making datasets **findable and shareable**  
+
+**Core elements (examples):**  
+- `title`, `creator`, `subject`, `date`, `format`, `identifier`  
+
+💡 Often extended with qualifiers to add more precision  
+
+## Documentation & metadata  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Dublin Core: The Grammar***
+
+- Based on **element–value pairs**  
+  - Element = the property being described  
+  - Value = the information recorded  
+- Syntax is **machine-readable** (XML, JSON) but also **human-readable**  
+- Flexible: can be embedded in repositories, DOIs, web pages  
+
+**Example pattern:**  
+- `dc:title` → "ArcticNet Water Sampling Data 2025"  
+- `dc:creator` → "Smith, J."  
+- `dc:date` → "2025-04-15"  
+
+## Documentation & metadata  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Dublin Core: Example Record***
+
+```xml
+<record>
+  <dc:title>ArcticNet Water Sampling Data 2025</dc:title>
+  <dc:creator>Smith, J.</dc:creator>
+  <dc:subject>Oceanography</dc:subject>
+  <dc:date>2025-04-15</dc:date>
+  <dc:format>CSV</dc:format>
+  <dc:identifier>doi:10.12345/abcd</dc:identifier>
+</record>
+```
+
+## Documentation & metadata  
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important}
+### ArcticNet's requirements
+
+::: {style="font-size: 80%;"}
+- Starting year 2, researchers must provide links to metadata records in recognized repositories  
+- Metadata must be openly accessible
+- Funding will be withheld if metadata records are missing or inaccessible  
+- For Indigenous-owned data → researchers must identify the organization responsible for storing and managing it
+  - Metadata publication is still required
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-note}
+### ArcticNet's commitment
+
+::: {style="font-size: 80%;"}
+***Role:***
+
+- Define metadata standards for projects  
+- Support researchers in preparing metadata  
+- Provide tools/templates to ease metadata submission  
+
+***Initiatives***  
+
+- Working with Polar Data Catalogue (PDC) to host project metadata  
+- Providing a PDC metadata template
+- Offering support for preparation and submission
+:::
+:::
+:::
+
+::::
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+&nbsp; ***·*** &nbsp;
+[Pacharra *et al.* 2025. From Bench to Brain: A Metadata-driven Approach to Research Data Management in a Collaborative Neuroscientific Research Center.](https://datascience.codata.org/articles/10.5334/dsj-2025-002)
+:::
 
 
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Storage & protection
 
-# 
+<div style="width:20%; margin: 0 auto;">
+  <img src="img/storage.png">
+</div>
 
-<div style="width:40%; margin: 0 auto;">
+## Storage & protection
+
+<img src="img/storage.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Guiding Questions***
+
+- Where will data be stored during the project?  
+- How will it be protected (backups, encryption, access controls)?  
+- Who is responsible for managing storage & protection?  
+- How long must the data be kept?  
+
+*These answers ensure your DMP covers both security and reliability.*
+
+## Storage & protection
+
+<img src="img/storage.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Core Elements***
+
+- **Storage location** → institutional servers, certified cloud storage, external media  
+- **Backup strategy** → frequency, number of copies, locations (3-2-1 rule)  
+- **Access & security** → permissions, authentication, encryption  
+- **File integrity** → checksums, error detection  
+- **Scalability** → projected storage needs (GB/TB)  
+- **Costs & resources** → who pays and what infrastructure is provided  
+
+
+## Storage & protection
+
+<img src="img/storage.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-tip}
+### Good Practices
+
+::: {style="font-size: 80%;"}
+- Prefer institutional or certified storage over personal laptops/USBs  
+- Use encrypted storage for sensitive data  
+- Automate backups whenever possible  
+- Document storage practices clearly in the DMP  
+- Plan ahead for long-term preservation (more on this soon)  
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-warning}
+### Special Considerations 
+
+::: {style="font-size: 80%;"}
+- Sensitive / Indigenous data → use community-approved safeguards, respect sovereignty  
+- Large volumes / "big data" → address infrastructure, costs, specialized servers  
+- Fieldwork constraints → describe temporary solutions (field laptops, portable drives) and how data will be secured until upload  
+:::
+:::
+:::
+
+::::
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Data analysis
+
+<div style="width:20%; margin: 0 auto;">
+  <img src="img/analysis.png">
+</div>
+
+## Data analysis
+
+<img src="img/analysis.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Guiding questions***
+
+- What software, tools, or pipelines will be used?  
+- How will analysis steps be documented?  
+- How will you ensure reproducibility?  
+
+*Short but important: show how your analysis is transparent and trustworthy.*  
+
+## Data analysis
+
+<img src="img/analysis.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Core elements***
+
+- **Software & tools** → R, Python, MATLAB, ArcGIS, QGIS (note open vs proprietary)  
+- **Workflow documentation** → scripts, Jupyter notebooks, R Markdown, Quarto  
+- **Reproducibility** → version control (GitHub, GitLab), containers (Docker)  
+- **Data transformations** → raw vs processed datasets, cleaning methods, derived outputs  
+
+## Data analysis
+
+<img src="img/analysis.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-tip}
+### Good Practices
+
+::: {style="font-size: 80%;"}
+- Prefer open-source tools when feasible  
+- Share analysis scripts with your datasets  
+- Keep raw and processed data separate
+- Document assumptions, parameters, and software versions  
+
+*Builds trust, efficiency, and long-term usability of results*
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-note}
+### A note on reproducibility
+[![](img/reproducibility.png){width=80%}](img/reproducibility.png)
+:::
+:::
+
+::::
+
+
+
+:::footer
+[inSileco workshop on reproducibility](https://insileco.io/workshop_reproducibility/)
+:::
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Preservation & archiving
+
+<div style="width:20%; margin: 0 auto;">
   <img src="img/archiving.png">
 </div>
 
-## Archiving & Sharing
+## Preservation & archiving
 
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-## Documentation and Metadata
+***Guiding Questions***
 
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+- Where will data be deposited for long-term preservation?  
+- Which repository/platforms (institutional, national, disciplinary)?  
+- How will datasets be cited and versioned?  
+- What is the expected retention period?  
+- How will sensitive/Indigenous data be preserved responsibly?  
 
-- Standards used (e.g., ISO 19115, Darwin Core)
-- Tools or platforms used for metadata creation (e.g., Polar Data Catalog)
-- Timing of metadata creation (start early, update as needed)
-- ArcticNet will provide a template for PDC metadata submission
-
-
-
-## Importance of Standards & Metadata
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- Early metadata standards: Dublin Core.
-- Rise of FAIR principles as best practices in RDM.
-- Role of platforms like Zenodo and Dryad in supporting open data.
+*Goal: ensure your data remain usable and accessible well beyond the project*
 
 
+## Preservation & archiving
 
-## Storage, Backup, Preservation
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- How data will be stored 
-- How will you ensure that data will be preserved
-- V value 
-
-## Platforms
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-
-## Platforms infrastructure
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- What do they do, how
-- Zenodo (https://www.openaire.eu/zenodo-relaunch)
-- Open Science Framework 
-- figshare
-- dataverse
-- Siku
-- PDC 
-
-
-## Zenodo 
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- What is it? How ot works?
-- https://www.openaire.eu/zenodo-relaunch
-
-## Dataverse / Borealis
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- What is it? How ot works?
-- https://dataverse.org/
-
-
-## Siku
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- What is it? How ot works?
-
-## PDC
-
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- What is it? How ot works?
-- https://polardata.ca/
+- **Trusted repositories** → Polar Data Catalogue, FRDR, Nordicana-D, Dryad, Zenodo, GBIF, OBIS  
+- **Preservation formats** → CSV, NetCDF, GeoTIFF, JSON (avoid lossy formats like JPEG, MP3)  
+- **Metadata** → complete, standardized (ISO 19115, Dublin Core, Darwin Core) 
+- **Licensing** → CC-BY, CC0, or custom terms  
+- **Persistent identifiers** → DOIs, ARKs for datasets  
+- **Retention period** → typically ≥ 5–10 years, ideally indefinite 
 
 
 
-## Workflow 
+## Preservation & archiving
 
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-![](img/data_flow.svg)
+:::: {.columns}
 
-## Sharing and Reuse
+::: {.column width="50%"}
+::: {.callout-tip}
+### Good Practices
 
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+::: {style="font-size: 80%;"}
+- Deposit data at publication time, not years later  
+- Archive raw and processed data, link to analysis scripts  
+- Use repository versioning features instead of manual file names  
+- Assign clear licenses and access conditions (open, embargoed, restricted)  
+- Ensure alignment with FAIR & CARE principles
+:::
+:::
+:::
 
-- Who will access the data and when (open, embargoed, restricted)
-- How data will be cited (DOIs or other persistent IDs)
-- Licensing terms (e.g., CC-BY, custom agreements)
+::: {.column width="50%"}
+::: {.callout-warning}
+### Special Considerations 
+
+::: {style="font-size: 80%;"}
+- Sensitive data → anonymization, restricted access, secure long-term storage  
+- Indigenous data sovereignty → respect CARE, OCAP®, NISR, community protocols  
+- Large volumes → consider specialized repositories, HPC, or cloud archives  
+:::
+:::
+:::
+
+::::
 
 
-## Legal & Ethical Considerations
+## Preservation & archiving
 
-<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-- Privacy concerns, ethics approvals
-- Indigenous data sovereignty and OCAP/CARE principles
-- Embargo periods, licensing, or access restrictions
+***Persistent Identifiers (PIDs)***
+
+::: {style="font-size: 80%;"}
+- What they are: unique, permanent digital references for research objects, people, and institutions.  
+
+- Examples:  
+  - **DOI** → datasets, publications  
+  - **ORCID** → researchers  
+  - **ROR** → institutions  
+  - **ARK / Handle** → digital objects  
+
+- Why important in DMPs & RDM?
+  - Ensure long-term findability and access  
+  - Enable unambiguous attribution (linking people, projects, data)  
+  - Facilitate interoperability across repositories and systems  
+  - Support impact tracking and reuse metrics  
+
+*Think of PIDs as the “barcodes” of research*  
+:::
+
+## Preservation & archiving
+
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Data repositories***
+
+- Institutional → university libraries, research data services  
+- National → Federated Research Data Repository (FRDR), Nordicana-D  
+- Disciplinary → Polar Data Catalogue, GBIF, OBIS, GenBank, ICPSR  
+- General-purpose → Zenodo, Dryad, Figshare, Dataverse
+
+***Choose a repository that is:***
+
+- Trusted (certified, long-term sustainability)  
+- FAIR-aligned (metadata standards, PIDs)  
+- Appropriate for your data type & community  
+
+:::footer
+[Repository Finder (re3data.org)](https://www.re3data.org/)
+&nbsp; ***·*** &nbsp;
+[FRDR](https://www.frdr-dfdr.ca/)
+&nbsp; ***·*** &nbsp;
+[FAIRsharing.org](https://fairsharing.org/)
+&nbsp; ***·*** &nbsp;
+[Dataverse](https://dataverse.org/)
+:::
 
 
 
+## Preservation & archiving  
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important}
+### ArcticNet's requirements
+
+::: {style="font-size: 80%;"}
+- No centralized ArcticNet repository → projects choose suitable long-term repository  
+- Prefer certified, open-access options (PDC, Nordicana-D, GBIF, OBIS, FRDR)  
+- Deposit all data and metadata supporting results  
+- Plan early, use non-proprietary formats (CSV, TIFF, NetCDF)  
+- Retain data as long as required by stakeholders and funders  
+- State in DMP what will be preserved and any restrictions  
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-note}
+### ArcticNet's guidance
+
+::: {style="font-size: 80%;"}
+- Researchers decide the most appropriate repository for their discipline and data type  
+- Focus on repository sustainability, DOIs, and open access  
+- Preservation can include raw, processed, and derived data when valuable  
+- Sensitive or Indigenous data may need restricted access or safeguards  
+- Rationale for retention and preservation must be clear in the DMP  
+:::
+:::
+:::
+
+::::
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Sharing & reuse
+
+<div style="width:20%; margin: 0 auto;">
+  <img src="img/sharing.png">
+</div>
+
+## Sharing & reuse
+
+<img src="img/sharing.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Guiding Questions***
+
+- Who can access the data, and when?  
+- How will data be cited?  
+- What license will govern reuse?  
+- Are there ethical, legal, or cultural restrictions?  
+
+*Goal: make data available in a way that is clear, usable, and responsible*
+
+
+## Sharing & reuse
+
+<img src="img/sharing.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Core Elements***
+
+- **Access conditions** → open, embargoed, or restricted  
+- **Licensing** → CC-BY, CC0, or custom terms  
+- **Citation practices** → DOIs or other PIDs, recommended citation text  
+- **Documentation** → metadata and README ensure others can reuse data  
+
+
+## Sharing & reuse
+
+<img src="img/sharing.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Licensing Your Data***
+
+- A license tells others how they can use your data
+- Common choices:  
+  - **CC-BY** → use with attribution  
+  - **CC0** → no restrictions (public domain)  
+  - **Custom agreements** → for sensitive, Indigenous, or commercial data  
+
+*Clearly state the license in your metadata, README, or repository record*
+
+:::footer
+[Creative Commons Licenses](https://creativecommons.org/licenses/)
+&nbsp; ***·*** &nbsp;
+[Data Management Expert Guide - Licensing your data](https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Licensing-your-data)
+&nbsp; ***·*** &nbsp;
+[How to FAIR - Data licences](https://www.howtofair.dk/how-to-fair/data-licences)
+&nbsp; ***·*** &nbsp;
+[Choose a license](https://choosealicense.com/licenses/)
+:::
+
+<img src="img/sharing_reuse_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+
+## Sharing & reuse
+
+<img src="img/sharing.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-tip}
+### Good Practices
+
+::: {style="font-size: 80%;"}
+- Use repositories that support DOIs and licensing
+- Publish data papers or cite dataset DOIs in articles  
+- Link data to publications, code, and related datasets  
+- Be transparent about conditions of reuse
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-warning}
+### Special Considerations 
+
+::: {style="font-size: 80%;"}
+- Sensitive or Indigenous data → respect CARE, OCAP®, and community protocols  
+- Commercially sensitive data → embargoes or restricted access  
+- Collaborations → phased sharing (internal first, open later)  
+:::
+:::
+:::
+
+::::
+
+## Sharing & reuse  
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important}
+### ArcticNet's requirements
+
+::: {style="font-size: 80%;"}
+- Data must be findable, accessible, interoperable, and reusable (FAIR)  
+- Metadata published early in a recognized catalogue (e.g., re3data, PDC, FRDR)  
+- Deposit data in a trusted repository with persistent identifiers (DOIs)  
+- Users must cite and acknowledge data creators  
+- Any restrictions (sensitive, Indigenous, security) must be justified in the DMP  
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-note}
+### ArcticNet's guidance
+
+::: {style="font-size: 80%;"}
+- Make data available as openly and quickly as possible, with minimal delay  
+- “As open as possible, as closed as necessary” (ethical and legal considerations)  
+- Indigenous and sensitive data require safeguards, informed consent, and respect for sovereignty (CARE, OCAP®, NISR)  
+- Embargoes or restricted access may apply, but must be transparent and time-limited  
+- Data access requests should not be unreasonably denied  
+:::
+:::
+:::
+
+::::
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Legal & ethics
+
+<div style="width:20%; margin: 0 auto;">
+  <img src="img/legal.png">
+</div>
+
+## Legal & ethics
+
+<img src="img/legal.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Guiding Questions***
+
+- Does the project involve human participants or PII?  
+- Will Indigenous knowledge or data be collected?  
+- Are ethics approvals required (REB/IRB, community review)?  
+- Who owns the data and how will IP be handled?  
+- Are there risks to safety, security, or sensitive ecosystems?  
+
+
+## Legal & ethics
+
+<img src="img/legal.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Core Elements***
+
+- Ethics approvals (REB/IRB numbers, consent procedures)  
+- Indigenous data sovereignty (CARE, OCAP®, NISR, community agreements)  
+- Sensitive data management (anonymization, restricted access, embargoes)  
+- Intellectual property (ownership, licensing, industry agreements)  
+- Legal compliance (Tri-Council, privacy acts, international obligations)  
+
+
+
+## Legal & ethics
+
+<img src="img/legal.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-tip}
+### Good Practices
+
+::: {style="font-size: 80%;"}
+- Clearly explain how participant rights are protected  
+- Use written data sharing agreements when applicable  
+- Consult community-led governance for Indigenous research  
+- Be transparent about data that cannot be shared and why  
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-warning}
+### Special Considerations 
+
+::: {style="font-size: 80%;"}
+- Multiple institutions → align ethics and legal requirements  
+- Indigenous partners may require community-based repositories or controlled access  
+- ArcticNet requires reporting of security breaches within 24 hours 
+- Consider cross-border data transfer and compliance  
+:::
+:::
+:::
+
+::::
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# Roles & resources
+
+<div style="width:20%; margin: 0 auto;">
+  <img src="img/roles.png">
+</div>
+
+## Roles & resources
+
+<img src="img/roles.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Guiding Questions***
+
+- Who is responsible at each stage of the data lifecycle?  
+- What infrastructure and support are available?  
+- How do project, network, and institutional roles align?  
+
+## Roles & resources
+
+<img src="img/roles.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Core Elements***
+
+- **Responsibility map** → who does what at each lifecycle stage (RACI if helpful)  
+- **Infrastructure & tools** → storage/backup, repositories, metadata tools, PID services, access provisioning  
+- **Standards & policies** → data/metadata standards, licensing, sensitive/Indigenous protocols  
+- **SOPs & workflows** → collection, QA/QC, versioning, handoff to archive  
+- **Training & support** → what’s offered by ArcticNet/institution, when to use it  
+- **Monitoring & reporting** → DMP update cadence, progress reports, breach procedures  
+- **Budget & time** → storage/archival costs, curation effort  
+- **Documentation & continuity** → READMEs, onboarding, turnover plan
+
+## Roles & resources
+
+<img src="img/roles.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+::: {.callout-tip}
+### Good Practices
+
+::: {style="font-size: 80%;"}
+- Assign clear roles (PI, data steward, team members) early  
+- Use project checklists to track responsibilities  
+- Build DMP updates into project milestones  
+- Communicate regularly with ArcticNet’s RDM support team  
+:::
+:::
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -905,6 +1645,73 @@ Emerging Trends & Opportunities
 10 min
 
 
+
+
+## Platforms infrastructure
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- What do they do, how
+- Zenodo (https://www.openaire.eu/zenodo-relaunch)
+- Open Science Framework 
+- figshare
+- dataverse
+- Siku
+- PDC 
+
+
+## Zenodo 
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- What is it? How ot works?
+- https://www.openaire.eu/zenodo-relaunch
+
+## Dataverse / Borealis
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- What is it? How ot works?
+- https://dataverse.org/
+
+
+## Siku
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- What is it? How ot works?
+
+## PDC
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- What is it? How ot works?
+- https://polardata.ca/
+
+
+
+## Workflow 
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+![](img/data_flow.svg)
+
+## Sharing and Reuse
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- Who will access the data and when (open, embargoed, restricted)
+- How data will be cited (DOIs or other persistent IDs)
+- Licensing terms (e.g., CC-BY, custom agreements)
+
+
+## Legal & Ethical Considerations
+
+<img src="img/archiving_icon.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+- Privacy concerns, ethics approvals
+- Indigenous data sovereignty and OCAP/CARE principles
+- Embargo periods, licensing, or access restrictions
 
 
 
